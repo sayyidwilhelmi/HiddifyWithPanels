@@ -1,4 +1,4 @@
-# 什么是 V2Hiddify（[View this document in English](./README_en.md)）
+# 什么是 HiddifyWithPanels
 
 该知道的都知道，不知道的慢慢了解 
 ## 项目进度
