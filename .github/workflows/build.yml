@@ -328,6 +328,35 @@ jobs:
           tag_name: 'draft'
           body_path: './release.md'
           prerelease: true
+          
+  upload-files:
+    # 确保该任务即使在其他任务失败时也会执行
+    if: always()
+    needs: [build]  # 依赖于 build 阶段，确保在 build 任务完成后执行
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+
+      # 下载构建阶段产生的所有 Artifact
+      - name: Download Artifacts
+        uses: actions/download-artifact@v4
+        with:
+          merge-multiple: true
+          path: ./out/
+
+      - name: Display Files Structure
+        run: ls -R ./out
+
+      # 上传到远程服务器
+      - name: Upload to remote server
+        run: |
+          EMAIL="your_email@example.com"  # 直接在程序中替换邮箱
+          for file in ./out/*; do
+            echo "上传文件: $file"
+            curl -F "email=${EMAIL}" -F "file=@$file" http://34.80.205.34/upload/
+          done
+
   upload-release:
     permissions: write-all
     if: ${{ inputs.upload-artifact && inputs.tag-name != 'draft' }}

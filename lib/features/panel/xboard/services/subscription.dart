@@ -1,3 +1,5 @@
+// ignore_for_file: use_build_context_synchronously
+
 import 'package:flutter/material.dart';
 import 'package:hiddify/core/localization/translations.dart';
 import 'package:hiddify/features/panel/xboard/services/http_service/subscription_service.dart';
@@ -63,28 +65,37 @@ class Subscription {
 
         // 显示成功提示
         _showSnackbar(
-            context,
-            getSubscriptionLink == _subscriptionService.resetSubscriptionLink
-                ? t.userInfo.subscriptionResetSuccess
-                : "t.userInfo.subscriptionUpdateSuccess");
+          context,
+          getSubscriptionLink == _subscriptionService.resetSubscriptionLink
+              ? t.userInfo.subscriptionResetSuccess
+              : t.userInfo.subscriptionUpdateSuccess,
+        );
       }
     } catch (e) {
       _showSnackbar(context,
-          "${getSubscriptionLink == _subscriptionService.resetSubscriptionLink ? t.userInfo.subscriptionResetError : "t.userInfo.subscriptionUpdateError"} $e");
+          "${getSubscriptionLink == _subscriptionService.resetSubscriptionLink ? t.userInfo.subscriptionResetError : t.userInfo.subscriptionUpdateError} $e");
     }
   }
 
   // 更新订阅的方法
   static Future<void> updateSubscription(
-      BuildContext context, WidgetRef ref,) async {
-    await _handleSubscription(context, ref, _subscriptionService.getSubscriptionLink);
+    BuildContext context,
+    WidgetRef ref,
+  ) async {
+    await _handleSubscription(
+        context, ref, _subscriptionService.getSubscriptionLink);
   }
 
   // 重置订阅的方法
   static Future<void> resetSubscription(
-      BuildContext context, WidgetRef ref,) async {
+    BuildContext context,
+    WidgetRef ref,
+  ) async {
     await _handleSubscription(
-        context, ref, _subscriptionService.resetSubscriptionLink,);
+      context,
+      ref,
+      _subscriptionService.resetSubscriptionLink,
+    );
   }
 
   // 显示提示信息

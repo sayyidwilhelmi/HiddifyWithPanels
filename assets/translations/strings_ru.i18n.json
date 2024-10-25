@@ -1,437 +1,437 @@
 {
-  "general": {
-    "appTitle": "Hiddify",
-    "reset": "Сброс",
-    "toggle": {
-      "enabled": "Включено",
-      "disabled": "Отключено"
-    },
-    "state": {
-      "disable": "Отключить"
-    },
-    "sort": "Сортировка",
-    "sortBy": "Сортировка",
-    "addToClipboard": "Копировать в буфер обмена",
-    "notSet": "Не задано",
-    "agree": "Согласиться",
-    "decline": "Отклонить",
-    "unknown": "Неизвестный",
-    "hidden": "Скрытый",
-    "timeout": "Таймаут",
-    "clipboardExportSuccessMsg": "Скопировано в буфер обмена",
-    "showMore": "Развернуть ",
-    "showLess": "Свернуть ",
-    "openAppSettings": "Открыть настройки приложения",
-    "grantPermission": "Дать права доступа"
-  },
-  "intro": {
-    "termsAndPolicyCaution(rich)": "Продолжая, Вы соглашаетесь с ${tap(@:about.termsAndConditions)}",
-    "start": "Старт"
-  },
-  "home": {
-    "pageTitle": "Главная",
-    "emptyProfilesMsg": "Начните с добавления профиля подписки",
-    "noActiveProfileMsg": "Выберите профиль"
-  },
-  "stats": {
-    "traffic": "Трафик",
-    "trafficLive": "Текущий трафик",
-    "trafficTotal": "Весь трафик",
-    "uplink": "Скорость отправки",
-    "downlink": "Скорость загрузки",
-    "connection": "Соединение ",
-    "speed": "Скорость",
-    "totalTransferred": "Всего передано"
-  },
-  "profile": {
-    "overviewPageTitle": "Профили",
-    "detailsPageTitle": "Профиль",
-    "activeProfileNameSemanticLabel": "Имя активного профиля: «${name}».",
-    "activeProfileBtnSemanticLabel": "Посмотреть все профили",
-    "nonActiveProfileBtnSemanticLabel": "Выберите «${name}» в качестве активного профиля.",
-    "subscription": {
-      "traffic": "Трафик",
-      "updatedTimeAgo": "Обновлено ${timeago}",
-      "remainingDuration": "Ещё ${duration} дн",
-      "remainingTrafficSemanticLabel": "Использовано ${consumed} трафика из ${total}",
-      "expired": "Истекло",
-      "noTraffic": "Нет доступного трафика",
-      "upload": "Отправлено ",
-      "download": "Скачано",
-      "total": "Всего трафика",
-      "expireDate": "Дата окончания подписки "
-    },
-    "sortBy": {
-      "lastUpdate": "По последнему обновлению",
-      "name": "По названию"
-    },
-    "add": {
-      "buttonText": "Новый профиль",
-      "shortBtnTxt": "Новый профиль",
-      "fromClipboard": "Добавить из буфера обмена",
-      "scanQr": "Сканировать QR-код",
-      "qrScanner": {
-        "permissionDeniedError": "Нет прав",
-        "unexpectedError": "Неизвестная ошибка",
-        "torchSemanticLabel": "Вспышка",
-        "facingSemanticLabel": "Фронтальная камера",
-        "permissionRequest": "Права на использование камеры для считывания QR"
-      },
-      "manually": "Ввести вручную",
-      "addWarp": "Добавить WARP",
-      "addingWarpMsg": "Пожалуйста, подождите, пока мы зарегистрируем WARP.",
-      "addingProfileMsg": "Добавление профиля",
-      "failureMsg": "Не удалось добавить профиль"
-    },
-    "update": {
-      "buttonTxt": "Обновить",
-      "tooltip": "Обновить профиль",
-      "updateSubscriptions": "Обновить подписки",
-      "failureMsg": "Не удалось обновить профиль",
-      "successMsg": "Профиль успешно обновлён",
-      "namedFailureMsg": "Не удалось обновить \"${name}\".",
-      "namedSuccessMsg": "\"${name}\" успешно обновлено"
-    },
-    "share": {
-      "buttonText": "Поделиться",
-      "exportToClipboardSuccess": "Ссылка скопирована в буфер обмена",
-      "exportSubLinkToClipboard": "Скопировать ссылку на подписку в буфер обмена",
-      "subLinkQrCode": "QR-код ссылки на подписку",
-      "exportConfigToClipboard": "Скопировать конфигурацию в буфер обмена",
-      "exportConfigToClipboardSuccess": "Конфигурация скопирована в буфер обмена"
-    },
-    "edit": {
-      "buttonTxt": "Изменить",
-      "selectActiveTxt": "Выберите активный профиль"
-    },
-    "delete": {
-      "buttonTxt": "Удалить",
-      "confirmationMsg": "Безвозвратно удалить профиль?",
-      "successMsg": "Профиль успешно удалён"
-    },
-    "save": {
-      "buttonText": "Сохранить",
-      "successMsg": "Профиль успешно сохранён",
-      "failureMsg": "Не удалось сохранить профиль"
-    },
-    "detailsForm": {
-      "nameLabel": "Имя",
-      "nameHint": "Имя профиля",
-      "urlLabel": "URL",
-      "urlHint": "Полный URL конфигурации",
-      "emptyNameMsg": "Поле «Имя» обязательно",
-      "invalidUrlMsg": "Неправильный URL",
-      "lastUpdate": "Последнее обновление",
-      "updateInterval": "Автоматическое обновление",
-      "updateIntervalDialogTitle": "Интервал обновления (в часах)"
-    }
-  },
-  "proxies": {
-    "pageTitle": "Прокси",
-    "emptyProxiesMsg": "Нет доступных прокси",
-    "delayTestTooltip": "Тестирование задержки",
-    "sortTooltip": "Сортировка прокси",
-    "checkIp": "Проверить IP",
-    "unknownIp": "Неизвестный IP",
-    "sortOptions": {
-      "unsorted": "По умолчанию",
-      "name": "По алфавиту",
-      "delay": "По задержке"
-    },
-    "activeProxySemanticLabel": "Активный прокси",
-    "delaySemantics": {
-      "result": "Задержка: ${delay}мс",
-      "timeout": "Тайм-аут при тестировании задержки",
-      "testing": "Задержка: Тестирование..."
-    },
-    "ipInfoSemantics": {
-      "address": "IP адрес",
-      "country": "Страна"
-    }
-  },
-  "logs": {
-    "pageTitle": "Логи",
-    "filterHint": "Фильтр",
-    "allLevelsFilter": "Все",
-    "shareCoreLogs": "Поделиться журналами ядра",
-    "shareAppLogs": "Поделиться журналами приложения",
-    "pauseTooltip": "Приостановить",
-    "resumeTooltip": "Возобновить",
-    "clearTooltip": "Очистить"
-  },
-  "settings": {
-    "pageTitle": "Настройки",
-    "requiresRestartMsg": "Чтобы применить изменения, перезапустите приложение",
-    "experimental": "Экспериментальный",
-    "experimentalMsg": "Функции с флагом «Экспериментально» все еще находятся в разработке и могут вызвать проблемы.",
-    "exportOptions": "Копировать анонимные параметры в буфер обмена",
-    "exportAllOptions": "Скопировать все параметры в буфер обмена",
-    "importOptions": "Импорт параметров из буфера обмена",
-    "importOptionsMsg": "Это перезапишет все параметры конфига предоставленными значениями. Вы уверены?",
     "general": {
-      "sectionTitle": "Основные",
-      "locale": "Язык",
-      "region": "Регион",
-      "regionMsg": "Помогает установить параметры по умолчанию для обхода внутренних (домашних, внутри страны) адресов.",
-      "regions": {
-        "ir": "Иран (ir) 🇮🇷",
-        "cn": "Китай (cn) 🇨🇳",
-        "ru": "Россия (ru) 🇷🇺",
-        "af": "Афганистан (af) 🇦🇫",
-        "id": "Индонезия (id) 🇮🇩",
-        "tr": "Турция (tr) 🇹🇷",
-        "br": "Бразилия (br) 🇧🇷",
-        "other": "Другой"
-      },
-      "themeMode": "Оформление",
-      "themeModes": {
-        "system": "Системная тема",
-        "dark": "Тёмная тема",
-        "light": "Светлая тема",
-        "black": "Чёрная тема"
-      },
-      "enableAnalytics": "Сбор аналитики",
-      "enableAnalyticsMsg": "Сбор данных аналитики и отправка отчётов о сбоях для улучшения приложения",
-      "autoStart": "Запуск при загрузке",
-      "silentStart": "Запуск в свёрнутом виде",
-      "openWorkingDir": "Открыть рабочую папку",
-      "ignoreBatteryOptimizations": "Отключить оптимизацию батареи",
-      "ignoreBatteryOptimizationsMsg": "Отключение ограничений для оптимальной производительности VPN",
-      "dynamicNotification": "Отображение скорости в уведомлении",
-      "hapticFeedback": "Тактильная обратная связь",
-      "autoIpCheck": "Автоматически проверять IP-адрес соединения",
-      "actionAtClosing": "Действие при закрытии",
-      "actionsAtClosing": {
-        "askEachTime": "Каждый раз спрашивать",
-        "hide": "Скрыть",
-        "exit": "Выйти"
-      }
+        "appTitle": "asd",
+        "reset": "Сброс",
+        "toggle": {
+            "enabled": "Включено",
+            "disabled": "Отключено"
+        },
+        "state": {
+            "disable": "Отключить"
+        },
+        "sort": "Сортировка",
+        "sortBy": "Сортировка",
+        "addToClipboard": "Копировать в буфер обмена",
+        "notSet": "Не задано",
+        "agree": "Согласиться",
+        "decline": "Отклонить",
+        "unknown": "Неизвестный",
+        "hidden": "Скрытый",
+        "timeout": "Таймаут",
+        "clipboardExportSuccessMsg": "Скопировано в буфер обмена",
+        "showMore": "Развернуть ",
+        "showLess": "Свернуть ",
+        "openAppSettings": "Открыть настройки приложения",
+        "grantPermission": "Дать права доступа"
     },
-    "advanced": {
-      "sectionTitle": "Расширенные",
-      "debugMode": "Режим отладки",
-      "debugModeMsg": "Чтобы применить изменения, перезапустите приложение",
-      "memoryLimit": "Ограничение памяти",
-      "memoryLimitMsg": "Включите, если у вас возникают ошибки нехватки памяти или частые сбои приложения",
-      "resetTunnel": "Сбросить профиль VPN"
+    "intro": {
+        "termsAndPolicyCaution(rich)": "Продолжая, Вы соглашаетесь с ${tap(@:about.termsAndConditions)}",
+        "start": "Старт"
     },
-    "network": {
-      "perAppProxyPageTitle": "Раздельное проксирование приложений",
-      "perAppProxyModes": {
-        "off": "Все",
-        "offMsg": "Проксировать все приложения",
-        "include": "Прокси",
-        "includeMsg": "Проксировать выбранные приложения",
-        "exclude": "Обход",
-        "excludeMsg": "Не проксировать выбранные приложения"
-      },
-      "showSystemApps": "Показать системные приложения",
-      "hideSystemApps": "Скрыть системные приложения",
-      "clearSelection": "Очистить выбор"
+    "home": {
+        "pageTitle": "Главная",
+        "emptyProfilesMsg": "Начните с добавления профиля подписки",
+        "noActiveProfileMsg": "Выберите профиль"
     },
-    "geoAssets": {
-      "pageTitle": "Активы маршрутизации",
-      "geoip": "GeoIP",
-      "geosite": "Geosite",
-      "version": "Версия ${version}",
-      "fileMissing": "Файл отсутствует",
-      "update": "Обновить",
-      "download": "Скачать",
-      "failureMsg": "Не удалось обновить объект",
-      "successMsg": "Объект успешно обновлен",
-      "addRecommended": "Добавить рекомендуемые активы",
-      "missingGeoAssetsMsg": "Файлы выбранных ресурсов маршрутизации отсутствуют. Либо скачайте их, либо выберите существующие"
-    }
-  },
-  "about": {
-    "pageTitle": "О программе",
-    "version": "Версия",
-    "sourceCode": "Исходный код",
-    "telegramChannel": "Telegram-канал",
-    "checkForUpdate": "Проверка обновления",
-    "privacyPolicy": "Политика конфиденциальности",
-    "termsAndConditions": "Условия и положения"
-  },
-  "appUpdate": {
-    "notAvailableMsg": "Уже используется последняя версия",
-    "dialogTitle": "Доступно обновление",
-    "updateMsg": "Доступна новая версия @:general.appTitle. Обновить сейчас?",
-    "currentVersionLbl": "Текущая версия",
-    "newVersionLbl": "Новая версия",
-    "updateNowBtnTxt": "Обновить",
-    "laterBtnTxt": "Позже",
-    "ignoreBtnTxt": "Пропустить"
-  },
-  "tray": {
-    "dashboard": "Панель",
-    "quit": "Выход",
-    "open": "Открыть",
-    "status": {
-      "connect": "Подключиться",
-      "connecting": "Подключение",
-      "disconnect": "Отключиться",
-      "disconnecting": "Отключение"
-    }
-  },
-  "failure": {
-    "unexpected": "Непредвиденная ошибка",
-    "clash": {
-      "unexpected": "Непредвиденная ошибка (Clash)",
-      "core": "Ошибка ${reason}"
+    "stats": {
+        "traffic": "Трафик",
+        "trafficLive": "Текущий трафик",
+        "trafficTotal": "Весь трафик",
+        "uplink": "Скорость отправки",
+        "downlink": "Скорость загрузки",
+        "connection": "Соединение ",
+        "speed": "Скорость",
+        "totalTransferred": "Всего передано"
     },
-    "singbox": {
-      "unexpected": "Непредвиденная ошибка (SingBox)",
-      "serviceNotRunning": "Сервис не запущен",
-      "missingPrivilege": "Отсутствуют права",
-      "missingPrivilegeMsg": "Режим VPN требует прав администратора. Перезапустите приложение от имени администратора или измените режим работы приложения.",
-      "missingGeoAssets": "Отсутствуют географические ресурсы",
-      "missingGeoAssetsMsg": "Георесурсы отсутствуют. Изменените выбранный ресурс или загрузите собственный в настройках.",
-      "invalidConfigOptions": "Неправильные параметры конфигурации",
-      "invalidConfig": "Неправильная конфигурация",
-      "create": "Ошибка создания сервиса",
-      "start": "Ошибка запуска сервиса"
+    "profile": {
+        "overviewPageTitle": "Профили",
+        "detailsPageTitle": "Профиль",
+        "activeProfileNameSemanticLabel": "Имя активного профиля: «${name}».",
+        "activeProfileBtnSemanticLabel": "Посмотреть все профили",
+        "nonActiveProfileBtnSemanticLabel": "Выберите «${name}» в качестве активного профиля.",
+        "subscription": {
+            "traffic": "Трафик",
+            "updatedTimeAgo": "Обновлено ${timeago}",
+            "remainingDuration": "Ещё ${duration} дн",
+            "remainingTrafficSemanticLabel": "Использовано ${consumed} трафика из ${total}",
+            "expired": "Истекло",
+            "noTraffic": "Нет доступного трафика",
+            "upload": "Отправлено ",
+            "download": "Скачано",
+            "total": "Всего трафика",
+            "expireDate": "Дата окончания подписки "
+        },
+        "sortBy": {
+            "lastUpdate": "По последнему обновлению",
+            "name": "По названию"
+        },
+        "add": {
+            "buttonText": "Новый профиль",
+            "shortBtnTxt": "Новый профиль",
+            "fromClipboard": "Добавить из буфера обмена",
+            "scanQr": "Сканировать QR-код",
+            "qrScanner": {
+                "permissionDeniedError": "Нет прав",
+                "unexpectedError": "Неизвестная ошибка",
+                "torchSemanticLabel": "Вспышка",
+                "facingSemanticLabel": "Фронтальная камера",
+                "permissionRequest": "Права на использование камеры для считывания QR"
+            },
+            "manually": "Ввести вручную",
+            "addWarp": "Добавить WARP",
+            "addingWarpMsg": "Пожалуйста, подождите, пока мы зарегистрируем WARP.",
+            "addingProfileMsg": "Добавление профиля",
+            "failureMsg": "Не удалось добавить профиль"
+        },
+        "update": {
+            "buttonTxt": "Обновить",
+            "tooltip": "Обновить профиль",
+            "updateSubscriptions": "Обновить подписки",
+            "failureMsg": "Не удалось обновить профиль",
+            "successMsg": "Профиль успешно обновлён",
+            "namedFailureMsg": "Не удалось обновить \"${name}\".",
+            "namedSuccessMsg": "\"${name}\" успешно обновлено"
+        },
+        "share": {
+            "buttonText": "Поделиться",
+            "exportToClipboardSuccess": "Ссылка скопирована в буфер обмена",
+            "exportSubLinkToClipboard": "Скопировать ссылку на подписку в буфер обмена",
+            "subLinkQrCode": "QR-код ссылки на подписку",
+            "exportConfigToClipboard": "Скопировать конфигурацию в буфер обмена",
+            "exportConfigToClipboardSuccess": "Конфигурация скопирована в буфер обмена"
+        },
+        "edit": {
+            "buttonTxt": "Изменить",
+            "selectActiveTxt": "Выберите активный профиль"
+        },
+        "delete": {
+            "buttonTxt": "Удалить",
+            "confirmationMsg": "Безвозвратно удалить профиль?",
+            "successMsg": "Профиль успешно удалён"
+        },
+        "save": {
+            "buttonText": "Сохранить",
+            "successMsg": "Профиль успешно сохранён",
+            "failureMsg": "Не удалось сохранить профиль"
+        },
+        "detailsForm": {
+            "nameLabel": "Имя",
+            "nameHint": "Имя профиля",
+            "urlLabel": "URL",
+            "urlHint": "Полный URL конфигурации",
+            "emptyNameMsg": "Поле «Имя» обязательно",
+            "invalidUrlMsg": "Неправильный URL",
+            "lastUpdate": "Последнее обновление",
+            "updateInterval": "Автоматическое обновление",
+            "updateIntervalDialogTitle": "Интервал обновления (в часах)"
+        }
     },
-    "connectivity": {
-      "unexpected": "Непредвиденная ошибка",
-      "missingVpnPermission": "Отсутствует разрешение VPN",
-      "missingNotificationPermission": "Отсутствует разрешение на показ уведомлений",
-      "core": "Ошибка ядра"
+    "proxies": {
+        "pageTitle": "Прокси",
+        "emptyProxiesMsg": "Нет доступных прокси",
+        "delayTestTooltip": "Тестирование задержки",
+        "sortTooltip": "Сортировка прокси",
+        "checkIp": "Проверить IP",
+        "unknownIp": "Неизвестный IP",
+        "sortOptions": {
+            "unsorted": "По умолчанию",
+            "name": "По алфавиту",
+            "delay": "По задержке"
+        },
+        "activeProxySemanticLabel": "Активный прокси",
+        "delaySemantics": {
+            "result": "Задержка: ${delay}мс",
+            "timeout": "Тайм-аут при тестировании задержки",
+            "testing": "Задержка: Тестирование..."
+        },
+        "ipInfoSemantics": {
+            "address": "IP адрес",
+            "country": "Страна"
+        }
     },
-    "profiles": {
-      "unexpected": "Непредвиденная ошибка",
-      "notFound": "Профиль не найден",
-      "invalidConfig": "Неправильная конфигурация",
-      "invalidUrl": "Неправильный URL"
+    "logs": {
+        "pageTitle": "Логи",
+        "filterHint": "Фильтр",
+        "allLevelsFilter": "Все",
+        "shareCoreLogs": "Поделиться журналами ядра",
+        "shareAppLogs": "Поделиться журналами приложения",
+        "pauseTooltip": "Приостановить",
+        "resumeTooltip": "Возобновить",
+        "clearTooltip": "Очистить"
+    },
+    "settings": {
+        "pageTitle": "Настройки",
+        "requiresRestartMsg": "Чтобы применить изменения, перезапустите приложение",
+        "experimental": "Экспериментальный",
+        "experimentalMsg": "Функции с флагом «Экспериментально» все еще находятся в разработке и могут вызвать проблемы.",
+        "exportOptions": "Копировать анонимные параметры в буфер обмена",
+        "exportAllOptions": "Скопировать все параметры в буфер обмена",
+        "importOptions": "Импорт параметров из буфера обмена",
+        "importOptionsMsg": "Это перезапишет все параметры конфига предоставленными значениями. Вы уверены?",
+        "general": {
+            "sectionTitle": "Основные",
+            "locale": "Язык",
+            "region": "Регион",
+            "regionMsg": "Помогает установить параметры по умолчанию для обхода внутренних (домашних, внутри страны) адресов.",
+            "regions": {
+                "ir": "Иран (ir) 🇮🇷",
+                "cn": "Китай (cn) 🇨🇳",
+                "ru": "Россия (ru) 🇷🇺",
+                "af": "Афганистан (af) 🇦🇫",
+                "id": "Индонезия (id) 🇮🇩",
+                "tr": "Турция (tr) 🇹🇷",
+                "br": "Бразилия (br) 🇧🇷",
+                "other": "Другой"
+            },
+            "themeMode": "Оформление",
+            "themeModes": {
+                "system": "Системная тема",
+                "dark": "Тёмная тема",
+                "light": "Светлая тема",
+                "black": "Чёрная тема"
+            },
+            "enableAnalytics": "Сбор аналитики",
+            "enableAnalyticsMsg": "Сбор данных аналитики и отправка отчётов о сбоях для улучшения приложения",
+            "autoStart": "Запуск при загрузке",
+            "silentStart": "Запуск в свёрнутом виде",
+            "openWorkingDir": "Открыть рабочую папку",
+            "ignoreBatteryOptimizations": "Отключить оптимизацию батареи",
+            "ignoreBatteryOptimizationsMsg": "Отключение ограничений для оптимальной производительности VPN",
+            "dynamicNotification": "Отображение скорости в уведомлении",
+            "hapticFeedback": "Тактильная обратная связь",
+            "autoIpCheck": "Автоматически проверять IP-адрес соединения",
+            "actionAtClosing": "Действие при закрытии",
+            "actionsAtClosing": {
+                "askEachTime": "Каждый раз спрашивать",
+                "hide": "Скрыть",
+                "exit": "Выйти"
+            }
+        },
+        "advanced": {
+            "sectionTitle": "Расширенные",
+            "debugMode": "Режим отладки",
+            "debugModeMsg": "Чтобы применить изменения, перезапустите приложение",
+            "memoryLimit": "Ограничение памяти",
+            "memoryLimitMsg": "Включите, если у вас возникают ошибки нехватки памяти или частые сбои приложения",
+            "resetTunnel": "Сбросить профиль VPN"
+        },
+        "network": {
+            "perAppProxyPageTitle": "Раздельное проксирование приложений",
+            "perAppProxyModes": {
+                "off": "Все",
+                "offMsg": "Проксировать все приложения",
+                "include": "Прокси",
+                "includeMsg": "Проксировать выбранные приложения",
+                "exclude": "Обход",
+                "excludeMsg": "Не проксировать выбранные приложения"
+            },
+            "showSystemApps": "Показать системные приложения",
+            "hideSystemApps": "Скрыть системные приложения",
+            "clearSelection": "Очистить выбор"
+        },
+        "geoAssets": {
+            "pageTitle": "Активы маршрутизации",
+            "geoip": "GeoIP",
+            "geosite": "Geosite",
+            "version": "Версия ${version}",
+            "fileMissing": "Файл отсутствует",
+            "update": "Обновить",
+            "download": "Скачать",
+            "failureMsg": "Не удалось обновить объект",
+            "successMsg": "Объект успешно обновлен",
+            "addRecommended": "Добавить рекомендуемые активы",
+            "missingGeoAssetsMsg": "Файлы выбранных ресурсов маршрутизации отсутствуют. Либо скачайте их, либо выберите существующие"
+        }
+    },
+    "about": {
+        "pageTitle": "О программе",
+        "version": "Версия",
+        "sourceCode": "Исходный код",
+        "telegramChannel": "Telegram-канал",
+        "checkForUpdate": "Проверка обновления",
+        "privacyPolicy": "Политика конфиденциальности",
+        "termsAndConditions": "Условия и положения"
+    },
+    "appUpdate": {
+        "notAvailableMsg": "Уже используется последняя версия",
+        "dialogTitle": "Доступно обновление",
+        "updateMsg": "Доступна новая версия @:general.appTitle. Обновить сейчас?",
+        "currentVersionLbl": "Текущая версия",
+        "newVersionLbl": "Новая версия",
+        "updateNowBtnTxt": "Обновить",
+        "laterBtnTxt": "Позже",
+        "ignoreBtnTxt": "Пропустить"
+    },
+    "tray": {
+        "dashboard": "Панель",
+        "quit": "Выход",
+        "open": "Открыть",
+        "status": {
+            "connect": "Подключиться",
+            "connecting": "Подключение",
+            "disconnect": "Отключиться",
+            "disconnecting": "Отключение"
+        }
+    },
+    "failure": {
+        "unexpected": "Непредвиденная ошибка",
+        "clash": {
+            "unexpected": "Непредвиденная ошибка (Clash)",
+            "core": "Ошибка ${reason}"
+        },
+        "singbox": {
+            "unexpected": "Непредвиденная ошибка (SingBox)",
+            "serviceNotRunning": "Сервис не запущен",
+            "missingPrivilege": "Отсутствуют права",
+            "missingPrivilegeMsg": "Режим VPN требует прав администратора. Перезапустите приложение от имени администратора или измените режим работы приложения.",
+            "missingGeoAssets": "Отсутствуют географические ресурсы",
+            "missingGeoAssetsMsg": "Георесурсы отсутствуют. Изменените выбранный ресурс или загрузите собственный в настройках.",
+            "invalidConfigOptions": "Неправильные параметры конфигурации",
+            "invalidConfig": "Неправильная конфигурация",
+            "create": "Ошибка создания сервиса",
+            "start": "Ошибка запуска сервиса"
+        },
+        "connectivity": {
+            "unexpected": "Непредвиденная ошибка",
+            "missingVpnPermission": "Отсутствует разрешение VPN",
+            "missingNotificationPermission": "Отсутствует разрешение на показ уведомлений",
+            "core": "Ошибка ядра"
+        },
+        "profiles": {
+            "unexpected": "Непредвиденная ошибка",
+            "notFound": "Профиль не найден",
+            "invalidConfig": "Неправильная конфигурация",
+            "invalidUrl": "Неправильный URL"
+        },
+        "connection": {
+            "unexpected": "Неожиданная ошибка подключения",
+            "timeout": "Истекло время подключения",
+            "badResponse": "Неправильный ответ",
+            "connectionError": "Ошибка подключения",
+            "badCertificate": "Неправильный сертификат"
+        },
+        "geoAssets": {
+            "unexpected": "Неожиданная ошибка",
+            "notUpdate": "Нет доступных обновлений",
+            "activeNotFound": "Активный географический актив не найден"
+        }
+    },
+    "play": {
+        "title": "Hiddify (Предварительная версия)",
+        "short_description": "Автовыбор, SSH, VLESS, VMess, Trojan, Reality, Sing-Box, Clash, Xray, Shadowsocks",
+        "full_description": "Основная цель Hiddify — предоставить безопасный, удобный и эффективный клиент туннелирования. Он позволяет направлять весь трафик или трафик выбранного приложения на указанный Вами удалённый сервер.\n\nПримечание: мы не предоставляем серверы, пользователи должны сами обеспечивать конфиденциальность своих действий в Интернете, используя собственный сервер или доверенные серверы. \nПоддерживаются сервера с:\n- Обычной ссылкой на подписку V2ray/Xray\n- Ссылкой на подписку Clash\n- Ссылкой на подписку на Sing–Box\n\nВ чём уникальные особенности? \n- Удобство\n- Оптимизация и скорость\n- Автоматический выбор минимальной задержки\n- Отображение информации об использовании\n- Простой импорт подписок одним щелчком мыши\n- Бесплатно и без рекламы\n- Простое переключение подписок\n- И многое другое...\n\nПоддерживаются:\n- Все протоколы, поддерживаемые Sing-Box\n- VLESS + XTLS Reality, Vision\n- VMESS\n- Trojan\n- ShoadowSocks\n- Reality\n- V2ray\n- Hystria2\n- TUIC\n- SSH\n- ShadowTLS\n\nИсходный код доступен по адресу https://github.com/hiddify/Hiddify-Next\nЯдро приложения основано на открытом исходном коде Sing–Box.\n\nОписание разрешений:\n- СЛУЖБА VPN: поскольку целью данного приложения является предоставление безопасного, удобного и эффективного клиента туннелирования, это разрешение необходимо, чтобы иметь возможность направлять трафик через туннель на удалённый сервер.\n- ЗАПРОС ВСЕХ ПАКЕТОВ: это разрешение позволяет добавлять или удалять определённые приложения из списка для туннелирования.\n- ИНФОРМИРОВАНИЕ О ЗАВЕРШЕНИИ ЗАГРУЗКИ: это разрешение можно включить или отключить в настройках приложения, чтобы (де)активировать запуск приложения при загрузке устройства.\n- ПОСТОЯННОЕ УВЕДОМЛЕНИЕ: это разрешение необходимо, так как используется приоритетная служба для обеспечения непрерывной работы VPN.\n- Приложение не содержит рекламы. Сбор аналитики и данных о сбоях происходят только с явного согласия пользователя при первом использовании приложения."
     },
     "connection": {
-      "unexpected": "Неожиданная ошибка подключения",
-      "timeout": "Истекло время подключения",
-      "badResponse": "Неправильный ответ",
-      "connectionError": "Ошибка подключения",
-      "badCertificate": "Неправильный сертификат"
+        "tapToConnect": "Нажмите для подключения",
+        "connecting": "Подключение",
+        "disconnecting": "Отключение",
+        "connected": "Подключено",
+        "reconnect": "Восстановить соединение",
+        "connectAnyWay": "Подключиться",
+        "experimentalNotice": "Экспериментальные функции в использовании",
+        "experimentalNoticeMsg": "Вы включили некоторые экспериментальные функции, которые могут повлиять на качество соединения и вызвать непредвиденные ошибки. Вы всегда можете изменить или сбросить эти параметры на странице параметров конфигурации.",
+        "disableExperimentalNotice": "Больше не показывать",
+        "reconnectMsg": "Переподключение для применения изменений..."
     },
-    "geoAssets": {
-      "unexpected": "Неожиданная ошибка",
-      "notUpdate": "Нет доступных обновлений",
-      "activeNotFound": "Активный географический актив не найден"
+    "config": {
+        "useXrayCoreWhenPossible": {
+            "Label": "Использовать Xray-core по возможности",
+            "Description": "Использование Xray-core для анализа подписок. Чтобы включить эту опцию, вам необходимо повторно импортировать подписку."
+        },
+        "resetBtn": "Сбросить параметры",
+        "serviceMode": "Режим работы",
+        "quickSettings": "Быстрые настройки",
+        "setupWarp": "Настроить WARP",
+        "allOptions": "Все параметры ",
+        "serviceModes": {
+            "proxy": "Прокси",
+            "systemProxy": "Системный прокси",
+            "tun": "VPN",
+            "tunService": "VPN Сервис"
+        },
+        "shortServiceModes": {
+            "proxy": "Прокси",
+            "systemProxy": "Системный прокси",
+            "tun": "VPN",
+            "tunService": "VPN Сервис"
+        },
+        "section": {
+            "route": "Варианты маршрутизации",
+            "dns": "Параметры DNS",
+            "inbound": "Входящие параметры",
+            "mux": "Мультиплексор",
+            "outbound": "Исходящие параметры",
+            "tlsTricks": "Хитрости TLS",
+            "warp": "Настройки WARP",
+            "misc": "Разные параметры"
+        },
+        "warpConsent": {
+            "title": "Согласие Cloudflare WARP",
+            "description(rich)": "Cloudflare WARP — бесплатный провайдер WireGuard VPN. Включая эту опцию, вы соглашаетесь с ${tos(Условиями обслуживания)} и ${privacy(Политикой конфиденциальности)} Cloudflare WARP."
+        },
+        "generateWarpConfig": "Cгенерировать конфигурацию WARP",
+        "missingWarpConfig": "Отсутствует конфигурация WARP",
+        "warpConfigGenerated": "Создана конфигурация WARP",
+        "pageTitle": "Параметры конфигурации",
+        "logLevel": "Уровень логирования",
+        "blockAds": "Блокировать рекламу",
+        "resolveDestination": "Определять назначение",
+        "ipv6Mode": "Маршрутизация IPv6",
+        "ipv6Modes": {
+            "disable": "Отключено",
+            "enable": "Включено",
+            "prefer": "Предпочтительно",
+            "only": "Исключительно"
+        },
+        "remoteDnsAddress": "Удалённый DNS",
+        "remoteDnsDomainStrategy": "Стратегия удалённого домена DNS",
+        "directDnsAddress": "Прямой DNS",
+        "directDnsDomainStrategy": "Стратегия прямого домена DNS",
+        "mixedPort": "Смешанный порт",
+        "tproxyPort": "Прозрачный прокси порт",
+        "localDnsPort": "Локальный порт DNS",
+        "allowConnectionFromLan": "Общий доступ к VPN в локальной сети",
+        "tunImplementation": "Реализация TUN",
+        "mtu": "Размер пакета (MTU)",
+        "connectionTestUrl": "URL для проверки подключения",
+        "urlTestInterval": "Интервал проверки URL",
+        "enableClashApi": "Использовать Clash API",
+        "clashApiPort": "Порт Clash API",
+        "enableTun": "Использовать TUN",
+        "setSystemProxy": "Установить системный прокси",
+        "enableDnsRouting": "Использовать маршрутизацию DNS",
+        "enableFakeDns": "Использовать поддельный DNS",
+        "bypassLan": "Обход локальной сети",
+        "strictRoute": "Строгая маршрутизация",
+        "enableTlsFragment": "Включить Фрагментацию TLS",
+        "tlsFragmentSize": "Размер фрагмента TLS",
+        "tlsFragmentSleep": "Сон фрагмента TLS",
+        "enableTlsMixedSniCase": "Включить TLS Mixed SNI Case",
+        "enableTlsPadding": "Включить TLS Padding",
+        "tlsPaddingSize": "TLS Padding",
+        "enableMux": "Включить Mux",
+        "muxProtocol": "Протокол Mux",
+        "muxMaxStreams": "Масимальное количество параллельных потоков",
+        "enableWarp": "Включить WARP",
+        "warpDetourMode": "Режим обхода WARP",
+        "warpDetourModes": {
+            "proxyOverWarp": "Работа Прокси через WARP",
+            "warpOverProxy": "Работа WARP через Прокси",
+            "inbound": "Обход WARP через Прокси",
+            "outbound": "Обход Прокси через WARP"
+        },
+        "warpLicenseKey": "Лицензионный ключ",
+        "warpCleanIp": "Очистить IP",
+        "warpPort": "Порт",
+        "warpNoise": "Шум",
+        "warpNoiseSize": "Размер шума",
+        "warpNoiseMode": "Шумовой режим",
+        "warpNoiseDelay": "Задержка шума"
+    },
+    "window": {
+        "hide": "Скрыть",
+        "close": "Закрыть",
+        "alertMessage": "Скрыть приложение или выйти?",
+        "remember": "Запомнить выбор"
     }
-  },
-  "play": {
-    "title": "Hiddify (Предварительная версия)",
-    "short_description": "Автовыбор, SSH, VLESS, VMess, Trojan, Reality, Sing-Box, Clash, Xray, Shadowsocks",
-    "full_description": "Основная цель Hiddify — предоставить безопасный, удобный и эффективный клиент туннелирования. Он позволяет направлять весь трафик или трафик выбранного приложения на указанный Вами удалённый сервер.\n\nПримечание: мы не предоставляем серверы, пользователи должны сами обеспечивать конфиденциальность своих действий в Интернете, используя собственный сервер или доверенные серверы. \nПоддерживаются сервера с:\n- Обычной ссылкой на подписку V2ray/Xray\n- Ссылкой на подписку Clash\n- Ссылкой на подписку на Sing–Box\n\nВ чём уникальные особенности? \n- Удобство\n- Оптимизация и скорость\n- Автоматический выбор минимальной задержки\n- Отображение информации об использовании\n- Простой импорт подписок одним щелчком мыши\n- Бесплатно и без рекламы\n- Простое переключение подписок\n- И многое другое...\n\nПоддерживаются:\n- Все протоколы, поддерживаемые Sing-Box\n- VLESS + XTLS Reality, Vision\n- VMESS\n- Trojan\n- ShoadowSocks\n- Reality\n- V2ray\n- Hystria2\n- TUIC\n- SSH\n- ShadowTLS\n\nИсходный код доступен по адресу https://github.com/hiddify/Hiddify-Next\nЯдро приложения основано на открытом исходном коде Sing–Box.\n\nОписание разрешений:\n- СЛУЖБА VPN: поскольку целью данного приложения является предоставление безопасного, удобного и эффективного клиента туннелирования, это разрешение необходимо, чтобы иметь возможность направлять трафик через туннель на удалённый сервер.\n- ЗАПРОС ВСЕХ ПАКЕТОВ: это разрешение позволяет добавлять или удалять определённые приложения из списка для туннелирования.\n- ИНФОРМИРОВАНИЕ О ЗАВЕРШЕНИИ ЗАГРУЗКИ: это разрешение можно включить или отключить в настройках приложения, чтобы (де)активировать запуск приложения при загрузке устройства.\n- ПОСТОЯННОЕ УВЕДОМЛЕНИЕ: это разрешение необходимо, так как используется приоритетная служба для обеспечения непрерывной работы VPN.\n- Приложение не содержит рекламы. Сбор аналитики и данных о сбоях происходят только с явного согласия пользователя при первом использовании приложения."
-  },
-  "connection": {
-    "tapToConnect": "Нажмите для подключения",
-    "connecting": "Подключение",
-    "disconnecting": "Отключение",
-    "connected": "Подключено",
-    "reconnect": "Восстановить соединение",
-    "connectAnyWay": "Подключиться",
-    "experimentalNotice": "Экспериментальные функции в использовании",
-    "experimentalNoticeMsg": "Вы включили некоторые экспериментальные функции, которые могут повлиять на качество соединения и вызвать непредвиденные ошибки. Вы всегда можете изменить или сбросить эти параметры на странице параметров конфигурации.",
-    "disableExperimentalNotice": "Больше не показывать",
-    "reconnectMsg": "Переподключение для применения изменений..."
-  },
-  "config": {
-    "useXrayCoreWhenPossible": {
-      "Label": "Использовать Xray-core по возможности",
-      "Description": "Использование Xray-core для анализа подписок. Чтобы включить эту опцию, вам необходимо повторно импортировать подписку."
-    },
-    "resetBtn": "Сбросить параметры",
-    "serviceMode": "Режим работы",
-    "quickSettings": "Быстрые настройки",
-    "setupWarp": "Настроить WARP",
-    "allOptions": "Все параметры ",
-    "serviceModes": {
-      "proxy": "Прокси",
-      "systemProxy": "Системный прокси",
-      "tun": "VPN",
-      "tunService": "VPN Сервис"
-    },
-    "shortServiceModes": {
-      "proxy": "Прокси",
-      "systemProxy": "Системный прокси",
-      "tun": "VPN",
-      "tunService": "VPN Сервис"
-    },
-    "section": {
-      "route": "Варианты маршрутизации",
-      "dns": "Параметры DNS",
-      "inbound": "Входящие параметры",
-      "mux": "Мультиплексор",
-      "outbound": "Исходящие параметры",
-      "tlsTricks": "Хитрости TLS",
-      "warp": "Настройки WARP",
-      "misc": "Разные параметры"
-    },
-    "warpConsent": {
-      "title": "Согласие Cloudflare WARP",
-      "description(rich)": "Cloudflare WARP — бесплатный провайдер WireGuard VPN. Включая эту опцию, вы соглашаетесь с ${tos(Условиями обслуживания)} и ${privacy(Политикой конфиденциальности)} Cloudflare WARP."
-    },
-    "generateWarpConfig": "Cгенерировать конфигурацию WARP",
-    "missingWarpConfig": "Отсутствует конфигурация WARP",
-    "warpConfigGenerated": "Создана конфигурация WARP",
-    "pageTitle": "Параметры конфигурации",
-    "logLevel": "Уровень логирования",
-    "blockAds": "Блокировать рекламу",
-    "resolveDestination": "Определять назначение",
-    "ipv6Mode": "Маршрутизация IPv6",
-    "ipv6Modes": {
-      "disable": "Отключено",
-      "enable": "Включено",
-      "prefer": "Предпочтительно",
-      "only": "Исключительно"
-    },
-    "remoteDnsAddress": "Удалённый DNS",
-    "remoteDnsDomainStrategy": "Стратегия удалённого домена DNS",
-    "directDnsAddress": "Прямой DNS",
-    "directDnsDomainStrategy": "Стратегия прямого домена DNS",
-    "mixedPort": "Смешанный порт",
-    "tproxyPort": "Прозрачный прокси порт",
-    "localDnsPort": "Локальный порт DNS",
-    "allowConnectionFromLan": "Общий доступ к VPN в локальной сети",
-    "tunImplementation": "Реализация TUN",
-    "mtu": "Размер пакета (MTU)",
-    "connectionTestUrl": "URL для проверки подключения",
-    "urlTestInterval": "Интервал проверки URL",
-    "enableClashApi": "Использовать Clash API",
-    "clashApiPort": "Порт Clash API",
-    "enableTun": "Использовать TUN",
-    "setSystemProxy": "Установить системный прокси",
-    "enableDnsRouting": "Использовать маршрутизацию DNS",
-    "enableFakeDns": "Использовать поддельный DNS",
-    "bypassLan": "Обход локальной сети",
-    "strictRoute": "Строгая маршрутизация",
-    "enableTlsFragment": "Включить Фрагментацию TLS",
-    "tlsFragmentSize": "Размер фрагмента TLS",
-    "tlsFragmentSleep": "Сон фрагмента TLS",
-    "enableTlsMixedSniCase": "Включить TLS Mixed SNI Case",
-    "enableTlsPadding": "Включить TLS Padding",
-    "tlsPaddingSize": "TLS Padding",
-    "enableMux": "Включить Mux",
-    "muxProtocol": "Протокол Mux",
-    "muxMaxStreams": "Масимальное количество параллельных потоков",
-    "enableWarp": "Включить WARP",
-    "warpDetourMode": "Режим обхода WARP",
-    "warpDetourModes": {
-      "proxyOverWarp": "Работа Прокси через WARP",
-      "warpOverProxy": "Работа WARP через Прокси",
-      "inbound": "Обход WARP через Прокси",
-      "outbound": "Обход Прокси через WARP"
-    },
-    "warpLicenseKey": "Лицензионный ключ",
-    "warpCleanIp": "Очистить IP",
-    "warpPort": "Порт",
-    "warpNoise": "Шум",
-    "warpNoiseSize": "Размер шума",
-    "warpNoiseMode": "Шумовой режим",
-    "warpNoiseDelay": "Задержка шума"
-  },
-  "window": {
-    "hide": "Скрыть",
-    "close": "Закрыть",
-    "alertMessage": "Скрыть приложение или выйти?",
-    "remember": "Запомнить выбор"
-  }
 }

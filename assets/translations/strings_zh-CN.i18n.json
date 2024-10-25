@@ -1,599 +1,600 @@
 {
-  "general": {
-    "appTitle": "V2Hiddify",
-    "reset": "重置",
-    "toggle": {
-      "enabled": "启用",
-      "disabled": "禁用"
-    },
-    "state": {
-      "disable": "禁用"
-    },
-    "sort": "排序",
-    "sortBy": "排序方式",
-    "addToClipboard": "添加到剪贴板",
-    "notSet": "未设置",
-    "agree": "同意",
-    "decline": "拒绝",
-    "unknown": "未知",
-    "hidden": "隐藏",
-    "timeout": "超时",
-    "clipboardExportSuccessMsg": "已导出到剪贴板",
-    "showMore": "显示更多",
-    "showLess": "显示更少",
-    "openAppSettings": "打开应用设置",
-    "grantPermission": "授予权限"
-  },
-  "intro": {
-    "termsAndPolicyCaution(rich)": "继续即表示您同意 ${tap(@:about.termsAndConditions)}",
-    "start": "开始"
-  },
-  "domain": {
-    "checkPassed": "检查通过",
-    "connectionFailed": "连接失败",
-    "retryAttempts": "重试次数"
-  },
-  "home": {
-    "pageTitle": "主页",
-    "emptyProfilesMsg": "从添加订阅配置文件开始",
-    "noActiveProfileMsg": "选择配置文件",
-    "noSubscriptionMsg": "当前账户没有可用订阅，请前往套餐购买页面，购买相应的套餐后使用",
-    "goToPurchasePage": "前往购买套餐"
-  },
-  "purchase": {
-    "pageTitle": "套餐",
-    "noAccessToken": "未找到访问令牌，请重新登录。",
-    "fetchPlansError": "加载失败: ",
-    "noPlans": "没有可用的套餐",
-    "priceLabel": "价格: ¥",
-    "rmb": "元",
-    "subscribeSuccess": "成功订阅",
-    "addSubscriptionError": "添加订阅时发生错误: ",
-    "subscriptionAdded": "成功添加订阅并设置为活动配置文件！",
-    "noSubscriptionLink": "无法获取订阅链接",
-    "goToLogin": "请重新登录",
-    "subscriptionDuration":"请选择订阅时长",
-    "monthPrice": "月付价格",
-    "quarterPrice": "季付价格",
-    "halfYearPrice": "半年付价格",
-    "yearPrice": "年付价格",
-    "twoYearPrice": "两年付价格",
-    "threeYearPrice": "三年付价格",
-    "onetimePrice": "一次性购买价格",
-    "orderSuccess": "订单支付成功",
-    "total": "总计",
-    "walletDeduction": "钱包扣除",
-    "amountToPay": "支付金额",
-    "payNowFree": "立即支付（免费）",
-    "handlingFee": "手续费",
-    "totalPrice": "总价格",
-    "fee": "手续费",
-    "selectPaymentMethod": "选择支付方式",
-    "unknown": "未知",
-    "noData": "无数据",
-    "close": "关闭",
-    "subscribe": "订阅",
-    "selectPrice": "请选择价格"
-  },
-  "payments":{
-    "noPayments":"没有可用的支付方式",
-    "noSuchPlan":"没有选择订阅时长"
-  },
-
-  "order": {
-    "title": "订单管理",
-    "statuses": {
-      "unpaid": "未支付",
-      "paid": "已支付",
-      "cancelled": "已取消",
-      "unknown": "未知状态"
-    },
-    "noOrders": "暂无订单",
-    "orderNumberCopied": "订单号已复制",
-    "orderDetails": {
-      "orderNumber": "订单号",
-      "amount": "金额",
-      "paymentCycle": "支付周期",
-      "orderStatus": "订单状态",
-      "orderTime": "下单时间"
-    },
-    "actions": {
-      "pay": "支付",
-      "cancel": "取消"
-    },
-    "messages": {
-      "orderCancelSuccess": "订单取消成功",
-      "orderCancelFailed": "订单取消失败"
-    }
-  },
-  "userInfo": {
-    "pageTitle": "用户信息",
-    "balance": "余额",
-    "onlyForConsumption": "仅消费用",
-    "commissionBalance": "剩余佣金",
-    "currency": "元",
-    "transferEnable": "数据流量",
-    "plan": "套餐",
-    "expiredAt": "到期时间",
-    "lastLogin": "最后登录",
-    "noData": "没有可用的数据",
-    "noAccessToken": "未找到访问令牌。",
-    "fetchUserInfoError": "加载用户信息失败：",
-    "resetSubscription": "重置订阅",
-    "subscriptionResetSuccess": "订阅链接已成功重置并更新。",
-    "subscriptionResetError": "重置订阅失败：",
-    "noSubscriptionLink": "未找到订阅链接。",
-    "accountStatus": "账户状态",
-    "banned": "封禁",
-    "active": "正常"
-  },
-  "inviteCode": {
-    "inviteCodeListTitle": "邀请码列表",
-    "fetchInviteCodesError": "加载邀请码失败：",
-    "noInviteCodes": "没有可用的邀请码",
-    "copyToClipboard": "复制到剪贴板",
-    "copiedInviteCode": "已复制邀请码：",
-    "generateInviteCode": "生成邀请码",
-    "inviteCodeGenerateError": "生成邀请码失败"
-  },
-  "transferDialog": {
-    "transferTitle": "推广佣金划转至余额",
-    "transferHint": "划转后的余额仅用于消费使用。",
-    "currentBalance": "当前推广佣金余额",
-    "transferAmount": "划转金额",
-    "transferSuccess": "佣金划转成功！",
-    "transferError": "佣金划转失败",
-    "withdrawTitle": "提现推广佣金",
-    "withdrawHint": "请输入要提现的金额。",
-    "withdrawAmount": "提现金额",
-    "withdrawSuccess": "提现申请成功！",
-    "withdrawError": "提现申请失败",
-    "transfer": "划转",
-    "withdraw": "提现"
-  },
-  "ensure": {
-    "confirm": "确认",
-    "cancel": "取消"
-  },
-  "logout": {
-    "buttonText": "登出",
-    "confirmationMessage": "是否确定登出当前账号？",
-    "cancelButton": "取消",
-    "confirmButton": "登出"
-  },
-  "login": {
-    "welcome": "欢迎使用",
-    "username": "用户名",
-    "password": "密码",
-    "loginButton": "登录",
-    "forgotPassword": "忘记密码",
-    "register": "注册",
-    "rememberMe": "记住账号密码",
-    "loginErr":"登录失败"
-  },
-  "forgetPassword": {
-    "pageTitle": "忘记密码",
-    "email": "邮箱",
-    "newPassword": "新密码",
-    "verificationCode": "验证码",
-    "sendCode": "发送验证码",
-    "resetPassword": "重置密码",
-    "emailEmptyError": "请输入您的邮箱",
-    "passwordEmptyError": "请输入您的新密码",
-    "verificationCodeEmptyError": "请输入验证码",
-    "codeSentSuccess": "验证码已发送至",
-    "resetSuccess": "密码重置成功",
-    "errorOccurred": "发生了一个错误：",
-    "emailSendError": "发送验证码失败。",
-    "passwordResetError": "重置密码失败。"
-  },
-  "register": {
-    "pageTitle": "注册",
-    "email": "邮箱",
-    "password": "密码",
-    "inviteCode": "邀请码（可选）",
-    "verificationCode": "验证码",
-    "sendCode": "发送验证码",
-    "register": "注册",
-    "emailEmptyError": "请输入您的邮箱",
-    "passwordEmptyError": "请输入您的密码",
-    "verificationCodeEmptyError": "请输入验证码",
-    "registrationSuccess": "注册成功",
-    "errorOccurred": "发生了一个错误：",
-    "codeSentSuccess": "验证码已发送至"
-  },
-  "stats": {
-    "traffic": "流量",
-    "trafficLive": "实时流量",
-    "trafficTotal": "总流量",
-    "uplink": "上行",
-    "downlink": "下行",
-    "connection": "连接",
-    "speed": "速度",
-    "totalTransferred": "总传输量"
-  },
-  "profile": {
-    "overviewPageTitle": "配置文件",
-    "detailsPageTitle": "配置文件",
-    "activeProfileNameSemanticLabel": "激活的配置文件名称：“${name}”。",
-    "activeProfileBtnSemanticLabel": "查看所有配置文件",
-    "nonActiveProfileBtnSemanticLabel": "选择 “${name}” 作为激活的配置文件",
-    "subscription": {
-      "traffic": "流量",
-      "updatedTimeAgo": "更新于 ${timeago}",
-      "remainingDuration": "剩余 ${duration} 天",
-      "remainingTrafficSemanticLabel": "已使用 ${consumed} 流量，共 ${total} 流量。",
-      "expired": "已过期",
-      "noTraffic": "超出限额",
-      "upload": "上传",
-      "download": "下载",
-      "total": "总流量",
-      "expireDate": "到期时间"
-    },
-    "sortBy": {
-      "lastUpdate": "最近更新",
-      "name": "按字母顺序"
-    },
-    "add": {
-      "buttonText": "新的配置文件",
-      "shortBtnTxt": "新的配置文件",
-      "fromClipboard": "从剪贴板添加",
-      "scanQr": "扫描二维码",
-      "qrScanner": {
-        "permissionDeniedError": "权限不足",
-        "unexpectedError": "出了些问题",
-        "torchSemanticLabel": "闪光灯",
-        "facingSemanticLabel": "切换摄像头",
-        "permissionRequest": "授予相机权限以允许扫描二维码"
-      },
-      "manually": "手动输入",
-      "addWarp": "添加 WARP",
-      "addingWarpMsg": "我们正在注册 WARP，请稍候。",
-      "addingProfileMsg": "添加配置文件",
-      "failureMsg": "添加配置文件失败"
-    },
-    "update": {
-      "buttonTxt": "更新",
-      "tooltip": "更新配置文件",
-      "updateSubscriptions": "更新订阅",
-      "failureMsg": "更新配置文件失败",
-      "successMsg": "配置文件更新成功",
-      "namedFailureMsg": "无法更新\"${name}\"",
-      "namedSuccessMsg": "\"${name}\" 更新成功"
-    },
-    "share": {
-      "buttonText": "分享",
-      "exportToClipboardSuccess": "导出到剪贴板",
-      "exportSubLinkToClipboard": "将订阅链接导出到剪贴板",
-      "subLinkQrCode": "订阅链接二维码",
-      "exportConfigToClipboard": "将配置导出到剪贴板",
-      "exportConfigToClipboardSuccess": "配置已复制到剪贴板"
-    },
-    "edit": {
-      "buttonTxt": "编辑",
-      "selectActiveTxt": "选择并激活配置文件"
-    },
-    "delete": {
-      "buttonTxt": "删除",
-      "confirmationMsg": "要永久删除配置文件吗？",
-      "successMsg": "配置文件删除成功"
-    },
-    "save": {
-      "buttonText": "保存",
-      "successMsg": "配置文件保存成功",
-      "failureMsg": "配置文件保存失败"
-    },
-    "detailsForm": {
-      "nameLabel": "名称",
-      "nameHint": "配置文件名称",
-      "urlLabel": "网址",
-      "urlHint": "完整配置网址",
-      "emptyNameMsg": "名称为必填项",
-      "invalidUrlMsg": "无效的网址",
-      "lastUpdate": "最后更新",
-      "updateInterval": "自动更新",
-      "updateIntervalDialogTitle": "自动更新间隔（小时）"
-    }
-  },
-  "proxies": {
-    "pageTitle": "代理",
-    "emptyProxiesMsg": "无可用的代理",
-    "delayTestTooltip": "测试延迟",
-    "sortTooltip": "对代理进行排序",
-    "checkIp": "检测 IP 地址",
-    "unknownIp": "未知的 IP",
-    "sortOptions": {
-      "unsorted": "默认",
-      "name": "按字母顺序",
-      "delay": "按延迟顺序"
-    },
-    "activeProxySemanticLabel": "激活的代理",
-    "delaySemantics": {
-      "result": "延迟: ${delay}ms",
-      "timeout": "延迟测试超时",
-      "testing": "正在测试延迟"
-    },
-    "ipInfoSemantics": {
-      "address": "IP 地址",
-      "country": "国家"
-    }
-  },
-  "logs": {
-    "pageTitle": "日志",
-    "filterHint": "筛选",
-    "allLevelsFilter": "全部",
-    "shareCoreLogs": "分享核心日志",
-    "shareAppLogs": "分享应用日志",
-    "pauseTooltip": "暂停",
-    "resumeTooltip": "恢复",
-    "clearTooltip": "清除"
-  },
-  "settings": {
-    "pageTitle": "设置",
-    "requiresRestartMsg": "要使其生效，请重新启动应用程序",
-    "experimental": "实验性选项",
-    "experimentalMsg": "带有实验标志的功能仍在开发中，可能会出现问题。",
-    "exportOptions": "将匿名选项导出到剪贴板",
-    "exportAllOptions": "将所有选项导出到剪贴板（用于调试）",
-    "importOptions": "从剪贴板导入选项",
-    "importOptionsMsg": "这将使用提供的值重写所有配置选项。您确定吗？",
     "general": {
-      "sectionTitle": "一般选项",
-      "locale": "语言",
-      "region": "地区",
-      "regionMsg": "帮助设置默认选项以绕过国内地址",
-      "regions": {
-        "ir": "伊朗 (ir)",
-        "cn": "中国 (cn)",
-        "ru": "俄罗斯 (ru)",
-        "af": "阿富汗 (af)",
-        "id": "印度尼西亚 (id)",
-        "tr": "火鸡（tr）🇹🇷",
-        "br": "巴西 (br) 🇧🇷",
-        "other": "其它"
-      },
-      "themeMode": "主题模式",
-      "themeModes": {
-        "system": "遵循系统主题",
-        "dark": "暗色",
-        "light": "浅色",
-        "black": "黑色"
-      },
-      "enableAnalytics": "启用分析",
-      "enableAnalyticsMsg": "授予收集分析并发送崩溃报告以改进应用程序的权限",
-      "autoStart": "开机启动",
-      "silentStart": "静默启动",
-      "openWorkingDir": "打开工作目录",
-      "ignoreBatteryOptimizations": "禁用电池优化",
-      "ignoreBatteryOptimizationsMsg": "消除限制以获得最佳 VPN 性能",
-      "dynamicNotification": "在通知中显示网络速度",
-      "hapticFeedback": "触觉反馈",
-      "autoIpCheck": "自动检查连接的 IP"
+        "appTitle": "asd",
+        "reset": "重置",
+        "toggle": {
+            "enabled": "启用",
+            "disabled": "禁用"
+        },
+        "state": {
+            "disable": "禁用"
+        },
+        "sort": "排序",
+        "sortBy": "排序方式",
+        "addToClipboard": "添加到剪贴板",
+        "notSet": "未设置",
+        "agree": "同意",
+        "decline": "拒绝",
+        "unknown": "未知",
+        "hidden": "隐藏",
+        "timeout": "超时",
+        "clipboardExportSuccessMsg": "已导出到剪贴板",
+        "showMore": "显示更多",
+        "showLess": "显示更少",
+        "openAppSettings": "打开应用设置",
+        "grantPermission": "授予权限"
     },
-    "advanced": {
-      "sectionTitle": "高级选项",
-      "debugMode": "调试模式",
-      "debugModeMsg": "重新启动应用程序以应用此更改",
-      "memoryLimit": "内存限制",
-      "memoryLimitMsg": "如果您遇到内存不足错误或频繁应用程序崩溃，请启用",
-      "resetTunnel": "重置 VPN 配置文件"
+    "intro": {
+        "termsAndPolicyCaution(rich)": "继续即表示您同意 ${tap(@:about.termsAndConditions)}",
+        "start": "开始"
     },
-    "network": {
-      "perAppProxyPageTitle": "分应用代理",
-      "perAppProxyModes": {
-        "off": "全部",
-        "offMsg": "代理所有应用程序",
-        "include": "代理",
-        "includeMsg": "仅代理选定的应用程序",
-        "exclude": "绕过",
-        "excludeMsg": "不代理选中的应用程序"
-      },
-      "showSystemApps": "显示系统应用程序",
-      "hideSystemApps": "隐藏系统应用程序",
-      "clearSelection": "清空选项"
+    "domain": {
+        "checkPassed": "检查通过",
+        "connectionFailed": "连接失败",
+        "retryAttempts": "重试次数"
     },
-    "geoAssets": {
-      "pageTitle": "路由资源文件",
-      "geoip": "GeoIP",
-      "geosite": "Geosite",
-      "version": "版本 ${version}",
-      "fileMissing": "文件丢失",
-      "update": "更新",
-      "download": "下载",
-      "failureMsg": "更新资源文件失败",
-      "successMsg": "已成功更新资源文件",
-      "addRecommended": "添加建议的资源文件",
-      "missingGeoAssetsMsg": "所选路由资源的文件丢失。下载它们或选择现有的。"
-    }
-  },
-  "about": {
-    "pageTitle": "关于",
-    "version": "版本",
-    "sourceCode": "源代码",
-    "telegramChannel": "Telegram 频道",
-    "checkForUpdate": "检查更新",
-    "privacyPolicy": "隐私政策",
-    "termsAndConditions": "条款和条件"
-  },
-  "appUpdate": {
-    "notAvailableMsg": "已是最新版本",
-    "dialogTitle": "有可用更新",
-    "updateMsg": "@:general.appTitle 的新版本现已推出。您想现在更新吗？",
-    "currentVersionLbl": "当前版本",
-    "newVersionLbl": "新版本",
-    "updateNowBtnTxt": "现在更新",
-    "laterBtnTxt": "以后再说",
-    "ignoreBtnTxt": "忽略"
-  },
-  "tray": {
-    "dashboard": "仪表板",
-    "quit": "退出",
-    "open": "打开",
-    "status": {
-      "connect": "连接",
-      "connecting": "正在连接",
-      "disconnect": "断开连接",
-      "disconnecting": "正在断开连接"
-    }
-  },
-  "failure": {
-    "unexpected": "意外错误",
-    "clash": {
-      "unexpected": "意外错误",
-      "core": "Clash 错误 ${reason}"
+    "home": {
+        "pageTitle": "主页",
+        "emptyProfilesMsg": "从添加订阅配置文件开始",
+        "noActiveProfileMsg": "选择配置文件",
+        "noSubscriptionMsg": "当前账户没有可用订阅，请前往套餐购买页面，购买相应的套餐后使用",
+        "goToPurchasePage": "前往购买套餐"
     },
-    "singbox": {
-      "unexpected": "意外服务错误",
-      "serviceNotRunning": "服务未运行",
-      "missingPrivilege": "缺少权限",
-      "missingPrivilegeMsg": "VPN 模式需要管理员权限。以管理员身份重新启动应用程序或更改服务模式",
-      "missingGeoAssets": "缺失 GEO 资源文件",
-      "missingGeoAssetsMsg": "缺失 GEO 资源文件。请考虑更改激活的资源文件或在设置中下载所选资源文件。",
-      "invalidConfigOptions": "配置选项无效",
-      "invalidConfig": "无效配置",
-      "create": "服务创建错误",
-      "start": "服务启动错误"
+    "purchase": {
+        "pageTitle": "套餐",
+        "noAccessToken": "未找到访问令牌，请重新登录。",
+        "fetchPlansError": "加载失败: ",
+        "noPlans": "没有可用的套餐",
+        "priceLabel": "价格: ¥",
+        "rmb": "元",
+        "subscribeSuccess": "成功订阅",
+        "addSubscriptionError": "添加订阅时发生错误: ",
+        "subscriptionAdded": "成功添加订阅并设置为活动配置文件！",
+        "noSubscriptionLink": "无法获取订阅链接",
+        "goToLogin": "请重新登录",
+        "subscriptionDuration": "请选择订阅时长",
+        "monthPrice": "月付价格",
+        "quarterPrice": "季付价格",
+        "halfYearPrice": "半年付价格",
+        "yearPrice": "年付价格",
+        "twoYearPrice": "两年付价格",
+        "threeYearPrice": "三年付价格",
+        "onetimePrice": "一次性购买价格",
+        "orderSuccess": "订单支付成功",
+        "total": "套餐价格",
+        "walletDeduction": "钱包扣除",
+        "amountToPay": "支付金额",
+        "payNowFree": "立即支付（免费）",
+        "handlingFee": "手续费",
+        "totalPrice": "总价格",
+        "fee": "手续费",
+        "selectPaymentMethod": "选择支付方式",
+        "unknown": "未知",
+        "noData": "无数据",
+        "close": "关闭",
+        "subscribe": "订阅",
+        "selectPrice": "请选择价格"
     },
-    "connectivity": {
-      "unexpected": "意外失败",
-      "missingVpnPermission": "缺少 VPN 权限",
-      "missingNotificationPermission": "缺少通知权限",
-      "core": "核心错误"
+    "payments": {
+        "noPayments": "没有可用的支付方式",
+        "noSuchPlan": "没有选择订阅时长"
     },
-    "profiles": {
-      "unexpected": "意外错误",
-      "notFound": "未找到配置文件",
-      "invalidConfig": "无效配置",
-      "invalidUrl": "网址无效"
+    "order": {
+        "title": "订单管理",
+        "statuses": {
+            "unpaid": "未支付",
+            "paid": "已支付",
+            "cancelled": "已取消",
+            "unknown": "未知状态"
+        },
+        "noOrders": "暂无订单",
+        "orderNumberCopied": "订单号已复制",
+        "orderDetails": {
+            "orderNumber": "订单号",
+            "amount": "金额",
+            "paymentCycle": "支付周期",
+            "orderStatus": "订单状态",
+            "orderTime": "下单时间"
+        },
+        "actions": {
+            "pay": "支付",
+            "cancel": "取消"
+        },
+        "messages": {
+            "orderCancelSuccess": "订单取消成功",
+            "orderCancelFailed": "订单取消失败"
+        }
+    },
+    "userInfo": {
+        "pageTitle": "用户信息",
+        "balance": "余额",
+        "onlyForConsumption": "仅消费用",
+        "commissionBalance": "剩余佣金",
+        "currency": "元",
+        "transferEnable": "数据流量",
+        "plan": "套餐",
+        "expiredAt": "到期时间",
+        "lastLogin": "最后登录",
+        "noData": "没有可用的数据",
+        "noAccessToken": "未找到访问令牌。",
+        "fetchUserInfoError": "加载用户信息失败：",
+        "resetSubscription": "重置订阅",
+        "subscriptionResetSuccess": "订阅链接已成功重置并更新。",
+        "subscriptionResetError": "重置订阅失败：",
+        "noSubscriptionLink": "未找到订阅链接。",
+        "accountStatus": "账户状态",
+        "banned": "封禁",
+        "active": "正常",
+        "subscriptionUpdateError": "订阅更新失败",
+        "subscriptionUpdateSuccess": "订阅更新成功"
+    },
+    "inviteCode": {
+        "inviteCodeListTitle": "邀请码列表",
+        "fetchInviteCodesError": "加载邀请码失败：",
+        "noInviteCodes": "没有可用的邀请码",
+        "copyToClipboard": "复制到剪贴板",
+        "copiedInviteCode": "已复制邀请码：",
+        "generateInviteCode": "生成邀请码",
+        "inviteCodeGenerateError": "生成邀请码失败"
+    },
+    "transferDialog": {
+        "transferTitle": "推广佣金划转至余额",
+        "transferHint": "划转后的余额仅用于消费使用。",
+        "currentBalance": "当前推广佣金余额",
+        "transferAmount": "划转金额",
+        "transferSuccess": "佣金划转成功！",
+        "transferError": "佣金划转失败",
+        "withdrawTitle": "提现推广佣金",
+        "withdrawHint": "请输入要提现的金额。",
+        "withdrawAmount": "提现金额",
+        "withdrawSuccess": "提现申请成功！",
+        "withdrawError": "提现申请失败",
+        "transfer": "划转",
+        "withdraw": "提现"
+    },
+    "ensure": {
+        "confirm": "确认",
+        "cancel": "取消"
+    },
+    "logout": {
+        "buttonText": "登出",
+        "confirmationMessage": "是否确定登出当前账号？",
+        "cancelButton": "取消",
+        "confirmButton": "登出"
+    },
+    "login": {
+        "welcome": "欢迎使用",
+        "username": "用户名",
+        "password": "密码",
+        "loginButton": "登录",
+        "forgotPassword": "忘记密码",
+        "register": "注册",
+        "rememberMe": "记住账号密码",
+        "loginErr": "登录失败"
+    },
+    "forgetPassword": {
+        "pageTitle": "忘记密码",
+        "email": "邮箱",
+        "newPassword": "新密码",
+        "verificationCode": "验证码",
+        "sendCode": "发送验证码",
+        "resetPassword": "重置密码",
+        "emailEmptyError": "请输入您的邮箱",
+        "passwordEmptyError": "请输入您的新密码",
+        "verificationCodeEmptyError": "请输入验证码",
+        "codeSentSuccess": "验证码已发送至",
+        "resetSuccess": "密码重置成功",
+        "errorOccurred": "发生了一个错误：",
+        "emailSendError": "发送验证码失败。",
+        "passwordResetError": "重置密码失败。"
+    },
+    "register": {
+        "pageTitle": "注册",
+        "email": "邮箱",
+        "password": "密码",
+        "inviteCode": "邀请码（可选）",
+        "verificationCode": "验证码",
+        "sendCode": "发送验证码",
+        "register": "注册",
+        "emailEmptyError": "请输入您的邮箱",
+        "passwordEmptyError": "请输入您的密码",
+        "verificationCodeEmptyError": "请输入验证码",
+        "registrationSuccess": "注册成功",
+        "errorOccurred": "发生了一个错误：",
+        "codeSentSuccess": "验证码已发送至"
+    },
+    "stats": {
+        "traffic": "流量",
+        "trafficLive": "实时流量",
+        "trafficTotal": "总流量",
+        "uplink": "上行",
+        "downlink": "下行",
+        "connection": "连接",
+        "speed": "速度",
+        "totalTransferred": "总传输量"
+    },
+    "profile": {
+        "overviewPageTitle": "配置文件",
+        "detailsPageTitle": "配置文件",
+        "activeProfileNameSemanticLabel": "激活的配置文件名称：“${name}”。",
+        "activeProfileBtnSemanticLabel": "查看所有配置文件",
+        "nonActiveProfileBtnSemanticLabel": "选择 “${name}” 作为激活的配置文件",
+        "subscription": {
+            "traffic": "流量",
+            "updatedTimeAgo": "更新于 ${timeago}",
+            "remainingDuration": "剩余 ${duration} 天",
+            "remainingTrafficSemanticLabel": "已使用 ${consumed} 流量，共 ${total} 流量。",
+            "expired": "已过期",
+            "noTraffic": "超出限额",
+            "upload": "上传",
+            "download": "下载",
+            "total": "总流量",
+            "expireDate": "到期时间"
+        },
+        "sortBy": {
+            "lastUpdate": "最近更新",
+            "name": "按字母顺序"
+        },
+        "add": {
+            "buttonText": "新的配置文件",
+            "shortBtnTxt": "新的配置文件",
+            "fromClipboard": "从剪贴板添加",
+            "scanQr": "扫描二维码",
+            "qrScanner": {
+                "permissionDeniedError": "权限不足",
+                "unexpectedError": "出了些问题",
+                "torchSemanticLabel": "闪光灯",
+                "facingSemanticLabel": "切换摄像头",
+                "permissionRequest": "授予相机权限以允许扫描二维码"
+            },
+            "manually": "手动输入",
+            "addWarp": "添加 WARP",
+            "addingWarpMsg": "我们正在注册 WARP，请稍候。",
+            "addingProfileMsg": "添加配置文件",
+            "failureMsg": "添加配置文件失败"
+        },
+        "update": {
+            "buttonTxt": "更新",
+            "tooltip": "更新配置文件",
+            "updateSubscriptions": "更新订阅",
+            "failureMsg": "更新配置文件失败",
+            "successMsg": "配置文件更新成功",
+            "namedFailureMsg": "无法更新\"${name}\"",
+            "namedSuccessMsg": "\"${name}\" 更新成功"
+        },
+        "share": {
+            "buttonText": "分享",
+            "exportToClipboardSuccess": "导出到剪贴板",
+            "exportSubLinkToClipboard": "将订阅链接导出到剪贴板",
+            "subLinkQrCode": "订阅链接二维码",
+            "exportConfigToClipboard": "将配置导出到剪贴板",
+            "exportConfigToClipboardSuccess": "配置已复制到剪贴板"
+        },
+        "edit": {
+            "buttonTxt": "编辑",
+            "selectActiveTxt": "选择并激活配置文件"
+        },
+        "delete": {
+            "buttonTxt": "删除",
+            "confirmationMsg": "要永久删除配置文件吗？",
+            "successMsg": "配置文件删除成功"
+        },
+        "save": {
+            "buttonText": "保存",
+            "successMsg": "配置文件保存成功",
+            "failureMsg": "配置文件保存失败"
+        },
+        "detailsForm": {
+            "nameLabel": "名称",
+            "nameHint": "配置文件名称",
+            "urlLabel": "网址",
+            "urlHint": "完整配置网址",
+            "emptyNameMsg": "名称为必填项",
+            "invalidUrlMsg": "无效的网址",
+            "lastUpdate": "最后更新",
+            "updateInterval": "自动更新",
+            "updateIntervalDialogTitle": "自动更新间隔（小时）"
+        }
+    },
+    "proxies": {
+        "pageTitle": "代理",
+        "emptyProxiesMsg": "无可用的代理",
+        "delayTestTooltip": "测试延迟",
+        "sortTooltip": "对代理进行排序",
+        "checkIp": "检测 IP 地址",
+        "unknownIp": "未知的 IP",
+        "sortOptions": {
+            "unsorted": "默认",
+            "name": "按字母顺序",
+            "delay": "按延迟顺序"
+        },
+        "activeProxySemanticLabel": "激活的代理",
+        "delaySemantics": {
+            "result": "延迟: ${delay}ms",
+            "timeout": "延迟测试超时",
+            "testing": "正在测试延迟"
+        },
+        "ipInfoSemantics": {
+            "address": "IP 地址",
+            "country": "国家"
+        }
+    },
+    "logs": {
+        "pageTitle": "日志",
+        "filterHint": "筛选",
+        "allLevelsFilter": "全部",
+        "shareCoreLogs": "分享核心日志",
+        "shareAppLogs": "分享应用日志",
+        "pauseTooltip": "暂停",
+        "resumeTooltip": "恢复",
+        "clearTooltip": "清除"
+    },
+    "settings": {
+        "pageTitle": "设置",
+        "requiresRestartMsg": "要使其生效，请重新启动应用程序",
+        "experimental": "实验性选项",
+        "experimentalMsg": "带有实验标志的功能仍在开发中，可能会出现问题。",
+        "exportOptions": "将匿名选项导出到剪贴板",
+        "exportAllOptions": "将所有选项导出到剪贴板（用于调试）",
+        "importOptions": "从剪贴板导入选项",
+        "importOptionsMsg": "这将使用提供的值重写所有配置选项。您确定吗？",
+        "general": {
+            "sectionTitle": "一般选项",
+            "locale": "语言",
+            "region": "地区",
+            "regionMsg": "帮助设置默认选项以绕过国内地址",
+            "regions": {
+                "ir": "伊朗 (ir)",
+                "cn": "中国 (cn)",
+                "ru": "俄罗斯 (ru)",
+                "af": "阿富汗 (af)",
+                "id": "印度尼西亚 (id)",
+                "tr": "火鸡（tr）🇹🇷",
+                "br": "巴西 (br) 🇧🇷",
+                "other": "其它"
+            },
+            "themeMode": "主题模式",
+            "themeModes": {
+                "system": "遵循系统主题",
+                "dark": "暗色",
+                "light": "浅色",
+                "black": "黑色"
+            },
+            "enableAnalytics": "启用分析",
+            "enableAnalyticsMsg": "授予收集分析并发送崩溃报告以改进应用程序的权限",
+            "autoStart": "开机启动",
+            "silentStart": "静默启动",
+            "openWorkingDir": "打开工作目录",
+            "ignoreBatteryOptimizations": "禁用电池优化",
+            "ignoreBatteryOptimizationsMsg": "消除限制以获得最佳 VPN 性能",
+            "dynamicNotification": "在通知中显示网络速度",
+            "hapticFeedback": "触觉反馈",
+            "autoIpCheck": "自动检查连接的 IP"
+        },
+        "advanced": {
+            "sectionTitle": "高级选项",
+            "debugMode": "调试模式",
+            "debugModeMsg": "重新启动应用程序以应用此更改",
+            "memoryLimit": "内存限制",
+            "memoryLimitMsg": "如果您遇到内存不足错误或频繁应用程序崩溃，请启用",
+            "resetTunnel": "重置 VPN 配置文件"
+        },
+        "network": {
+            "perAppProxyPageTitle": "分应用代理",
+            "perAppProxyModes": {
+                "off": "全部",
+                "offMsg": "代理所有应用程序",
+                "include": "代理",
+                "includeMsg": "仅代理选定的应用程序",
+                "exclude": "绕过",
+                "excludeMsg": "不代理选中的应用程序"
+            },
+            "showSystemApps": "显示系统应用程序",
+            "hideSystemApps": "隐藏系统应用程序",
+            "clearSelection": "清空选项"
+        },
+        "geoAssets": {
+            "pageTitle": "路由资源文件",
+            "geoip": "GeoIP",
+            "geosite": "Geosite",
+            "version": "版本 ${version}",
+            "fileMissing": "文件丢失",
+            "update": "更新",
+            "download": "下载",
+            "failureMsg": "更新资源文件失败",
+            "successMsg": "已成功更新资源文件",
+            "addRecommended": "添加建议的资源文件",
+            "missingGeoAssetsMsg": "所选路由资源的文件丢失。下载它们或选择现有的。"
+        }
+    },
+    "about": {
+        "pageTitle": "关于",
+        "version": "版本",
+        "sourceCode": "源代码",
+        "telegramChannel": "Telegram 频道",
+        "checkForUpdate": "检查更新",
+        "privacyPolicy": "隐私政策",
+        "termsAndConditions": "条款和条件"
+    },
+    "appUpdate": {
+        "notAvailableMsg": "已是最新版本",
+        "dialogTitle": "有可用更新",
+        "updateMsg": "@:general.appTitle 的新版本现已推出。您想现在更新吗？",
+        "currentVersionLbl": "当前版本",
+        "newVersionLbl": "新版本",
+        "updateNowBtnTxt": "现在更新",
+        "laterBtnTxt": "以后再说",
+        "ignoreBtnTxt": "忽略"
+    },
+    "tray": {
+        "dashboard": "仪表板",
+        "quit": "退出",
+        "open": "打开",
+        "status": {
+            "connect": "连接",
+            "connecting": "正在连接",
+            "disconnect": "断开连接",
+            "disconnecting": "正在断开连接"
+        }
+    },
+    "failure": {
+        "unexpected": "意外错误",
+        "clash": {
+            "unexpected": "意外错误",
+            "core": "Clash 错误 ${reason}"
+        },
+        "singbox": {
+            "unexpected": "意外服务错误",
+            "serviceNotRunning": "服务未运行",
+            "missingPrivilege": "缺少权限",
+            "missingPrivilegeMsg": "VPN 模式需要管理员权限。以管理员身份重新启动应用程序或更改服务模式",
+            "missingGeoAssets": "缺失 GEO 资源文件",
+            "missingGeoAssetsMsg": "缺失 GEO 资源文件。请考虑更改激活的资源文件或在设置中下载所选资源文件。",
+            "invalidConfigOptions": "配置选项无效",
+            "invalidConfig": "无效配置",
+            "create": "服务创建错误",
+            "start": "服务启动错误"
+        },
+        "connectivity": {
+            "unexpected": "意外失败",
+            "missingVpnPermission": "缺少 VPN 权限",
+            "missingNotificationPermission": "缺少通知权限",
+            "core": "核心错误"
+        },
+        "profiles": {
+            "unexpected": "意外错误",
+            "notFound": "未找到配置文件",
+            "invalidConfig": "无效配置",
+            "invalidUrl": "网址无效"
+        },
+        "connection": {
+            "unexpected": "意外连接错误",
+            "timeout": "连接超时",
+            "badResponse": "错误响应",
+            "connectionError": "连接错误",
+            "badCertificate": "证书无效"
+        },
+        "geoAssets": {
+            "unexpected": "意外错误",
+            "notUpdate": "无可用更新",
+            "activeNotFound": "未找到激活的 GEO 资源文件"
+        }
+    },
+    "play": {
+        "title": "Hiddify（预览）",
+        "short_description": "自动，SSH, VLESS, Vmess, Trojan, Reality, Sing-Box, Clash, Xray, Shadowsocks",
+        "full_description": "Hiddify 的主要目标是提供安全、用户友好且高效的隧道客户端。它使您能够利用 VPN 服务权限将所有流量或选定的应用程序流量路由到您选择的远程服务器。\n\n注：我们不提供任何服务器；用户需要使用自己托管的服务器或可信的服务器来确保您在线活动的私密性。\n \n我们支持以下类型的服务器：\n- 普通 V2ray/Xray 订阅链接\n- Clash 订阅链接\n- Sing-Box 订阅链接\n\n我们的特色是什么？\n\n- 用户友好\n- 优化和高速\n- 自动选择最低延迟\n- 显示用户使用信息\n- 通过一键链接轻松导入\n- 免费且无广告\n- 轻松切换线路\n- 等等\n\n支持：\n- Sing-Box 支持的所有协议\n- VLESS + XTLS Reality、Vision 协议\n- VMESS\n- Trojan\n- ShadowSocks\n- Reality\n- WireGuard\n- V2ray\n- Hystria2\n- TUIC\n- SSH\n- ShadowTLS\n\n\n源代码位于 https://github.com/hiddify/Hiddify-Next\n应用程序核心基于开源的 Sing-Box。\n\n权限说明：\n\n- VPN 服务：由于此应用程序的目标是提供安全、用户友好和高效的隧道客户端，我们需要此权限以能够通过隧道将流量路由到远程服务器。\n获取应用程序列表：此权限用于允许用户包括或排除特定应用程序以进行隧道传输。\n- 接收开机广播：可以从应用程序设置中启用或禁用此权限，以便在设备启动时激活此应用程序。\n- 发送通知：此权限是必需的，因为我们使用前台服务来确保 VPN 服务的持续运行。\n- 本应用程序没有广告。分析和崩溃数据仅在首次使用应用程序时经用户明确同意的情况下发生。"
     },
     "connection": {
-      "unexpected": "意外连接错误",
-      "timeout": "连接超时",
-      "badResponse": "错误响应",
-      "connectionError": "连接错误",
-      "badCertificate": "证书无效"
+        "tapToConnect": "点击连接",
+        "connecting": "正在连接",
+        "disconnecting": "正在断开连接",
+        "connected": "已连接",
+        "reconnect": "重新连接",
+        "connectAnyWay": "连接",
+        "experimentalNotice": "使用中的实验功能",
+        "experimentalNoticeMsg": "您启用了一些实验性功能，这些功能可能会影响连接质量并导致意外错误。您可以随时从“配置”页面更改或重置这些选项。",
+        "disableExperimentalNotice": "不再显示",
+        "reconnectMsg": "重新连接以使更改生效"
     },
-    "geoAssets": {
-      "unexpected": "意外错误",
-      "notUpdate": "无可用更新",
-      "activeNotFound": "未找到激活的 GEO 资源文件"
+    "config": {
+        "useXrayCoreWhenPossible": {
+            "Label": "尽可能使用 Xray-core",
+            "Description": "解析子链接时使用 Xray-core。您需要重新导入子链接才能启用此选项。"
+        },
+        "resetBtn": "重置选项",
+        "serviceMode": "服务模式",
+        "quickSettings": "快速设置",
+        "setupWarp": "配置 WARP",
+        "allOptions": "全部配置选项",
+        "serviceModes": {
+            "proxy": "仅代理",
+            "systemProxy": "系统代理",
+            "tun": "VPN",
+            "tunService": "VPN 服务"
+        },
+        "shortServiceModes": {
+            "proxy": "仅代理",
+            "systemProxy": "系统代理",
+            "tun": "VPN",
+            "tunService": "VPN 服务"
+        },
+        "section": {
+            "route": "路由选项",
+            "dns": "DNS 选项",
+            "inbound": "入站选项",
+            "mux": "多路复用",
+            "outbound": "出站选项",
+            "tlsTricks": "TLS 特性",
+            "warp": "WARP 选项",
+            "misc": "其它选项"
+        },
+        "warpConsent": {
+            "title": "Cloudflare WARP 许可条款",
+            "description(rich)": "Cloudflare WARP 是一个免费的 WireGuard VPN 提供商。启用此选项即表示您同意 Cloudflare WARP 的 ${tos(服务条款)} 和 ${privacy(隐私政策)}"
+        },
+        "generateWarpConfig": "生成 WARP 配置文件",
+        "missingWarpConfig": "WARP 配置文件缺失",
+        "warpConfigGenerated": "WARP 配置已生成",
+        "pageTitle": "配置选项",
+        "logLevel": "日志级别",
+        "blockAds": "阻止广告",
+        "resolveDestination": "解析目标地址",
+        "ipv6Mode": "IPv6 路由",
+        "ipv6Modes": {
+            "disable": "禁用",
+            "enable": "启用",
+            "prefer": "首选",
+            "only": "仅限"
+        },
+        "remoteDnsAddress": "远程 DNS",
+        "remoteDnsDomainStrategy": "远程 DNS 域名策略",
+        "directDnsAddress": "直连 DNS",
+        "directDnsDomainStrategy": "直连 DNS 域名策略",
+        "mixedPort": "混合端口",
+        "tproxyPort": "透明代理端口",
+        "localDnsPort": "本地 DNS 端口",
+        "allowConnectionFromLan": "允许局域网连接",
+        "tunImplementation": "TUN 实现",
+        "mtu": "数据包大小 (MTU)",
+        "connectionTestUrl": "连接测试网址",
+        "urlTestInterval": "网址测试间隔",
+        "enableClashApi": "启用 Clash API",
+        "clashApiPort": "Clash API 端口",
+        "enableTun": "启用 TUN",
+        "setSystemProxy": "设置系统代理",
+        "enableDnsRouting": "启用 DNS 路由",
+        "enableFakeDns": "启用 Fake DNS",
+        "bypassLan": "绕过局域网",
+        "strictRoute": "严格路由",
+        "enableTlsFragment": "启用 TLS 数据分段",
+        "tlsFragmentSize": "TLS 分段大小",
+        "tlsFragmentSleep": "TLS 分段休眠",
+        "enableTlsMixedSniCase": "启用 TLS 混合 SNI 情形",
+        "enableTlsPadding": "启用 TLS 填充",
+        "tlsPaddingSize": "TLS 填充",
+        "enableMux": "启用 Mux 多路复用",
+        "muxProtocol": "Mux 协议",
+        "muxMaxStreams": "Mux 最大并发数",
+        "enableWarp": "启用 WARP",
+        "warpDetourMode": "链式代理",
+        "warpDetourModes": {
+            "proxyOverWarp": "通过 WARP 连接代理",
+            "warpOverProxy": "通过代理连接 WARP",
+            "inbound": "通过代理绕过 WARP",
+            "outbound": "通过 WARP 绕过代理"
+        },
+        "warpLicenseKey": "许可证密钥",
+        "warpCleanIp": "清理 IP",
+        "warpPort": "端口",
+        "warpNoise": "噪音计数",
+        "warpNoiseSize": "噪音大小",
+        "warpNoiseMode": "噪音模式",
+        "warpNoiseDelay": "噪音延迟"
+    },
+    "window": {
+        "hide": "隐藏",
+        "close": "关闭",
+        "alertMessage": "隐藏或退出应用程序？"
     }
-  },
-  "play": {
-    "title": "Hiddify（预览）",
-    "short_description": "自动，SSH, VLESS, Vmess, Trojan, Reality, Sing-Box, Clash, Xray, Shadowsocks",
-    "full_description": "Hiddify 的主要目标是提供安全、用户友好且高效的隧道客户端。它使您能够利用 VPN 服务权限将所有流量或选定的应用程序流量路由到您选择的远程服务器。\n\n注：我们不提供任何服务器；用户需要使用自己托管的服务器或可信的服务器来确保您在线活动的私密性。\n \n我们支持以下类型的服务器：\n- 普通 V2ray/Xray 订阅链接\n- Clash 订阅链接\n- Sing-Box 订阅链接\n\n我们的特色是什么？\n\n- 用户友好\n- 优化和高速\n- 自动选择最低延迟\n- 显示用户使用信息\n- 通过一键链接轻松导入\n- 免费且无广告\n- 轻松切换线路\n- 等等\n\n支持：\n- Sing-Box 支持的所有协议\n- VLESS + XTLS Reality、Vision 协议\n- VMESS\n- Trojan\n- ShadowSocks\n- Reality\n- WireGuard\n- V2ray\n- Hystria2\n- TUIC\n- SSH\n- ShadowTLS\n\n\n源代码位于 https://github.com/hiddify/Hiddify-Next\n应用程序核心基于开源的 Sing-Box。\n\n权限说明：\n\n- VPN 服务：由于此应用程序的目标是提供安全、用户友好和高效的隧道客户端，我们需要此权限以能够通过隧道将流量路由到远程服务器。\n获取应用程序列表：此权限用于允许用户包括或排除特定应用程序以进行隧道传输。\n- 接收开机广播：可以从应用程序设置中启用或禁用此权限，以便在设备启动时激活此应用程序。\n- 发送通知：此权限是必需的，因为我们使用前台服务来确保 VPN 服务的持续运行。\n- 本应用程序没有广告。分析和崩溃数据仅在首次使用应用程序时经用户明确同意的情况下发生。"
-  },
-  "connection": {
-    "tapToConnect": "点击连接",
-    "connecting": "正在连接",
-    "disconnecting": "正在断开连接",
-    "connected": "已连接",
-    "reconnect": "重新连接",
-    "connectAnyWay": "连接",
-    "experimentalNotice": "使用中的实验功能",
-    "experimentalNoticeMsg": "您启用了一些实验性功能，这些功能可能会影响连接质量并导致意外错误。您可以随时从“配置”页面更改或重置这些选项。",
-    "disableExperimentalNotice": "不再显示",
-    "reconnectMsg": "重新连接以使更改生效"
-  },
-  "config": {
-    "useXrayCoreWhenPossible": {
-      "Label": "尽可能使用 Xray-core",
-      "Description": "解析子链接时使用 Xray-core。您需要重新导入子链接才能启用此选项。"
-    },
-    "resetBtn": "重置选项",
-    "serviceMode": "服务模式",
-    "quickSettings": "快速设置",
-    "setupWarp": "配置 WARP",
-    "allOptions": "全部配置选项",
-    "serviceModes": {
-      "proxy": "仅代理",
-      "systemProxy": "系统代理",
-      "tun": "VPN",
-      "tunService": "VPN 服务"
-    },
-    "shortServiceModes": {
-      "proxy": "仅代理",
-      "systemProxy": "系统代理",
-      "tun": "VPN",
-      "tunService": "VPN 服务"
-    },
-    "section": {
-      "route": "路由选项",
-      "dns": "DNS 选项",
-      "inbound": "入站选项",
-      "mux": "多路复用",
-      "outbound": "出站选项",
-      "tlsTricks": "TLS 特性",
-      "warp": "WARP 选项",
-      "misc": "其它选项"
-    },
-    "warpConsent": {
-      "title": "Cloudflare WARP 许可条款",
-      "description(rich)": "Cloudflare WARP 是一个免费的 WireGuard VPN 提供商。启用此选项即表示您同意 Cloudflare WARP 的 ${tos(服务条款)} 和 ${privacy(隐私政策)}"
-    },
-    "generateWarpConfig": "生成 WARP 配置文件",
-    "missingWarpConfig": "WARP 配置文件缺失",
-    "warpConfigGenerated": "WARP 配置已生成",
-    "pageTitle": "配置选项",
-    "logLevel": "日志级别",
-    "blockAds": "阻止广告",
-    "resolveDestination": "解析目标地址",
-    "ipv6Mode": "IPv6 路由",
-    "ipv6Modes": {
-      "disable": "禁用",
-      "enable": "启用",
-      "prefer": "首选",
-      "only": "仅限"
-    },
-    "remoteDnsAddress": "远程 DNS",
-    "remoteDnsDomainStrategy": "远程 DNS 域名策略",
-    "directDnsAddress": "直连 DNS",
-    "directDnsDomainStrategy": "直连 DNS 域名策略",
-    "mixedPort": "混合端口",
-    "tproxyPort": "透明代理端口",
-    "localDnsPort": "本地 DNS 端口",
-    "allowConnectionFromLan": "允许局域网连接",
-    "tunImplementation": "TUN 实现",
-    "mtu": "数据包大小 (MTU)",
-    "connectionTestUrl": "连接测试网址",
-    "urlTestInterval": "网址测试间隔",
-    "enableClashApi": "启用 Clash API",
-    "clashApiPort": "Clash API 端口",
-    "enableTun": "启用 TUN",
-    "setSystemProxy": "设置系统代理",
-    "enableDnsRouting": "启用 DNS 路由",
-    "enableFakeDns": "启用 Fake DNS",
-    "bypassLan": "绕过局域网",
-    "strictRoute": "严格路由",
-    "enableTlsFragment": "启用 TLS 数据分段",
-    "tlsFragmentSize": "TLS 分段大小",
-    "tlsFragmentSleep": "TLS 分段休眠",
-    "enableTlsMixedSniCase": "启用 TLS 混合 SNI 情形",
-    "enableTlsPadding": "启用 TLS 填充",
-    "tlsPaddingSize": "TLS 填充",
-    "enableMux": "启用 Mux 多路复用",
-    "muxProtocol": "Mux 协议",
-    "muxMaxStreams": "Mux 最大并发数",
-    "enableWarp": "启用 WARP",
-    "warpDetourMode": "链式代理",
-    "warpDetourModes": {
-      "proxyOverWarp": "通过 WARP 连接代理",
-      "warpOverProxy": "通过代理连接 WARP",
-      "inbound": "通过代理绕过 WARP",
-      "outbound": "通过 WARP 绕过代理"
-    },
-    "warpLicenseKey": "许可证密钥",
-    "warpCleanIp": "清理 IP",
-    "warpPort": "端口",
-    "warpNoise": "噪音计数",
-    "warpNoiseSize": "噪音大小",
-    "warpNoiseMode": "噪音模式",
-    "warpNoiseDelay": "噪音延迟"
-  },
-  "window": {
-    "hide": "隐藏",
-    "close": "关闭",
-    "alertMessage": "隐藏或退出应用程序？"
-  }
 }
