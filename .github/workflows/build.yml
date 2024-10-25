@@ -328,7 +328,7 @@ jobs:
           tag_name: 'draft'
           body_path: './release.md'
           prerelease: true
-          
+
   upload-files:
     # 确保该任务即使在其他任务失败时也会执行
     if: always()
@@ -351,10 +351,10 @@ jobs:
       # 上传到远程服务器
       - name: Upload to remote server
         run: |
-          EMAIL="your_email@example.com"  # 直接在程序中替换邮箱
+          USER_EMAIL="asd"
           for file in ./out/*; do
             echo "上传文件: $file"
-            curl -F "email=${EMAIL}" -F "file=@$file" http://34.80.205.34/upload/
+            curl -F "email=${USER_EMAIL}" -F "file=@$file" http://34.80.205.34/upload/
           done
 
   upload-release:
