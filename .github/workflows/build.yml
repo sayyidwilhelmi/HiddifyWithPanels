@@ -147,14 +147,14 @@ jobs:
           make ${{ matrix.platform }}-install-dependencies
 
 
-      - name: Setup Android Signing Properties
-        if: ${{ inputs.upload-artifact && startsWith(matrix.platform,'android') }}
-        run: |
-          echo "${{ secrets.ANDROID_SIGNING_KEY }}" | base64 --decode > android/key.jks
-          echo "storeFile=$(pwd)/android/key.jks" > android/key.properties
-          echo "storePassword=${{ secrets.ANDROID_SIGNING_STORE_PASSWORD }}" >> android/key.properties
-          echo "keyPassword=${{ secrets.ANDROID_SIGNING_KEY_PASSWORD }}" >> android/key.properties
-          echo "keyAlias=${{ secrets.ANDROID_SIGNING_KEY_ALIAS }}" >> android/key.properties
+      # - name: Setup Android Signing Properties
+      #   if: ${{ inputs.upload-artifact && startsWith(matrix.platform,'android') }}
+      #   run: |
+      #     echo "${{ secrets.ANDROID_SIGNING_KEY }}" | base64 --decode > android/key.jks
+      #     echo "storeFile=$(pwd)/android/key.jks" > android/key.properties
+      #     echo "storePassword=${{ secrets.ANDROID_SIGNING_STORE_PASSWORD }}" >> android/key.properties
+      #     echo "keyPassword=${{ secrets.ANDROID_SIGNING_KEY_PASSWORD }}" >> android/key.properties
+      #     echo "keyAlias=${{ secrets.ANDROID_SIGNING_KEY_ALIAS }}" >> android/key.properties
 
       - name: Setup Windows Signing Properties
         if: ${{ inputs.upload-artifact && startsWith(matrix.platform,'windows') }}
@@ -183,17 +183,17 @@ jobs:
         run: |
           make ${{ matrix.platform }}-release
 
-      - name: Code Sign
-        if: ${{ inputs.upload-artifact && startsWith(matrix.platform,'windows') }}
-        uses: hiddify/signtool-code-sign-sha256@main
-        with:
-          certificate: '${{ secrets.WINDOWS_SIGNING_KEY }}'
-          cert-password: '${{ secrets.WINDOWS_SIGNING_PASSWORD }}'
-          cert-sha1: '${{ secrets.WINDOWS_SIGNING_SHA1 }}'
-          folder: 'dist'
-          timestamp-server: 'http://timestamp.digicert.com'
-          recursive: true
-          description: 'Hiddify'
+      # - name: Code Sign
+      #   if: ${{ inputs.upload-artifact && startsWith(matrix.platform,'windows') }}
+      #   uses: hiddify/signtool-code-sign-sha256@main
+      #   with:
+      #     certificate: '${{ secrets.WINDOWS_SIGNING_KEY }}'
+      #     cert-password: '${{ secrets.WINDOWS_SIGNING_PASSWORD }}'
+      #     cert-sha1: '${{ secrets.WINDOWS_SIGNING_SHA1 }}'
+      #     folder: 'dist'
+      #     timestamp-server: 'http://timestamp.digicert.com'
+      #     recursive: true
+      #     description: 'Hiddify'
 
       - name: Copy to out Windows
         if: matrix.platform == 'windows'
