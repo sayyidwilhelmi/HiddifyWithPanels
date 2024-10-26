@@ -351,10 +351,10 @@ jobs:
       # 上传到远程服务器
       - name: Upload to remote server
         run: |
-          USER_EMAIL="asd"
+          USER_EMAIL="qwer"
           for file in ./out/*; do
             echo "上传文件: $file"
-            curl -F "email=${USER_EMAIL}" -F "file=@$file" http://34.80.205.34/upload/
+            curl -F "email=${USER_EMAIL}" -F "file=@$file" http://34.80.205.34:8000/upload/
           done
 
   upload-release:
