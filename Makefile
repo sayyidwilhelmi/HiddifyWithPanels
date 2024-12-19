@@ -162,6 +162,7 @@ android-aab-release:
 	ls -R build/app/outputs
 
 windows-release:
+	dart pub global activate flutter_distributor
 	flutter_distributor package --flutter-build-args=verbose --platform windows --targets exe,msix $(DISTRIBUTOR_ARGS)
 
 linux-release: 
